@@ -22,3 +22,11 @@ header {
     display: flex;
     
 }
+
+footer{
+    background-color: #AAD0E8;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: px;
+    padding-top: px;
+}
