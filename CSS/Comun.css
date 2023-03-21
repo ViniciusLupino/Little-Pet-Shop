@@ -1,14 +1,14 @@
-
 /* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
 /* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
 /* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
-
 
 body {
     background-color: #E4FAFE;
     font-family: 'Calibri';
     font-size: 36px;
     margin: 0;
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+
 }
 
 @font-face {
@@ -36,7 +36,7 @@ header {
 
 header h1 {
     font-size: 75px;
-    font-weight:lighter ;
+    font-weight: lighter;
 }
 
 /* footer{
