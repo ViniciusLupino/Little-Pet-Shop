@@ -20,7 +20,22 @@ header {
     background-color: #AAD0E8;
     height: 250px;
     display: flex;
-    
+}
+
+#Nome {
+    margin-left: 150px;
+}
+
+#Logo {
+    height: 200px;
+    width: 198.4px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+header h1 {
+    font-size: 75px;
+    font-weight:lighter ;
 }
 
 footer{
