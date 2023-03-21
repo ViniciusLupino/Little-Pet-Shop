@@ -20,7 +20,7 @@ header {
     background-color: #AAD0E8;
     height: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #Nome {
