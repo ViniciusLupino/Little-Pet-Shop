@@ -1,3 +1,5 @@
+/* Essa parte é para comandos */
+
 body {
     margin: 0;
     padding: 0;
@@ -12,27 +14,22 @@ header img {
 }
 
 
-#imglogo {
-    height: 200px;
-    /* float: left; */
+p {
+    text-align: left;
 }
 
-#imgba {
-    width: 100px;
-    margin: 0;
-    padding: 0;
-
-}
-
-#h1h1h1 {
-    text-align: center;
-}
+/* Essa parte é para classes e divs */
 
 #header {
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+}
+
+#imglogo {
+    height: 200px;
+    /* float: left; */
 }
 
 #menuhorizontal ul {
@@ -42,6 +39,20 @@ header img {
     padding: 0;
     overflow: hidden;
 }
+
+
+#imgba {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
 
 #menuhorizontal li a {
     display: block;
@@ -97,6 +108,18 @@ header img {
     font-size: 18px;
 }
 
-p {
-    text-align: left;
+
+
+#cupom {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    border-radius: 15px;
+}
+
+#clique {
+    background-color: #AAD0E8;
+    margin-top: 50px;
 }
