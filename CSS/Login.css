@@ -1,5 +1,10 @@
+/* Id's e classes */
 
 #Nome {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
     margin-left: 150px;
 }
 
@@ -8,26 +13,11 @@
     width: 198.4px;
     margin-top: 25px;
     margin-left: 15px;
-}
-
-/* Id's e classes */
-
-#Nome {
-    align-self: center;
-    justify-self: center;
-    width: 100%;
-    text-align: center;
-}
-
-#Logo {
-    height: 200px;
-    margin-top: 25px;
-    margin-left: 15px;
     float: left;
 }
 
 #imagem-perfil {
-    width: 50%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -35,37 +25,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #00d29a;
     width: 25%;
     margin: 40px auto;
     padding: 40px;
     border-radius: 25px;
-    color: white;
+    color: #15847c;
 }
 
-#Continuar {
-    background-color: #00d29a;
-    width: 600px;
-    height: 60px;
-    justify-content: center;
-    margin: 40px auto;
-    text-align: center;
-    justify-self: center;
-    border-radius: 15px;
-    
-}
+
 
 #Doguin {
     text-decoration: none;
     color: #ffffff;
     vertical-align: middle;
+    background-color: #00d29a;
+    justify-content: center;
+    padding: 5px 40px;
+    margin: 50px;
+    border-radius: 25px;
 }
 
 #Trocar {
     margin: 0 auto;
-    color: #ffffff;
-    background-color: #a8cdd0;
-    border-radius: 15px;
+    color: #15847c;
     text-align: center;
 }
 
@@ -74,7 +56,7 @@
     background-color: #00d29a;
     text-align: center;
     padding: 5px 105px;
-    border-radius: 15px;
+    border-radius: 25px;
     color: white;
 }
 
@@ -82,4 +64,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#casing {
+    background-color: #AAD0E8;
+    margin: 50px auto;
+    border-radius: 25px;
+}
+
+#nao-tem-cadastro {
+    text-align: center;
+    color: #15847c;
+}
+
+#cadastrar {
+    background-color: #00d29a;
+    color: white;
+    padding: 5px 105px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #E4FAFE;
 }

@@ -20,7 +20,8 @@ header {
     background-color: #AAD0E8;
     height: 250px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 
 header img{
@@ -30,16 +31,18 @@ header img{
 header h1 {
     font-size: 75px;
     font-weight: lighter;
+    text-decoration: underline;
+    justify-content: right;
 }
 
 
-footer{
+/* footer{
     background: #AAD0E8;
     font-size: 15px;
     width: 100%;
     height: 60px;
-    position: absolute;
+    padding-top: 1px;
     bottom: 0;
     left: 0;
     text-align: center;
-    }
+    } */
