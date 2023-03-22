@@ -14,8 +14,34 @@ header{
 #boximg{
     display: flex;
     height: 200px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
+
+
+
+
+#logo-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  #imglogo {
+    height: 100%;
+    margin-right: 20px;
+    float: right;
+  }
+  
+  #h1h1h1 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+
+
+
+
+
 
 
 p {
@@ -31,7 +57,7 @@ p {
     flex-wrap: wrap-reverse;
 }
 
-#imglogo {
+/* #imglogo {
     height: 200px;
 }
 
@@ -39,7 +65,7 @@ p {
 #h1h1h1{
     text-align: center;
 
-}
+} */
 
 
 
