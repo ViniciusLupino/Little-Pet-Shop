@@ -1,7 +1,10 @@
-body{
+/* Essa parte é para comandos */
+
+body {
     margin: 0;
     padding: 0;
 }
+
 
 header{
      background-color: #AAD0E8;
@@ -14,6 +17,19 @@ header{
     justify-content: space-around;
 }
 
+
+p {
+    text-align: left;
+}
+
+/* Essa parte é para classes e divs */
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
 
 #imglogo {
     height: 200px;
@@ -28,25 +44,10 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #cinco{
         display: flex;
         justify-content: center;
 }
-
-
 
 
 #menuhorizontal ul {
@@ -56,6 +57,20 @@ header{
     padding: 0;
     overflow: hidden;
 }
+
+
+#imgba {
+    width: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+
 
 #menuhorizontal li a {
     display: block;
@@ -81,13 +96,50 @@ header{
     background-color: #00B483;
 }
 
-#menuhorizontal{
+#menuhorizontal {
     padding: 0 0 50px 0;
 }
 
 
-
-#umaidqualquer{
-   
+#bem-vindo {
+    display: flex;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #AAD0E8;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px 0;
 }
 
+#img-home {
+    width: 20%;
+    margin-right: 10px;
+}
+
+#container {
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    display: flex;
+    font-size: 18px;
+}
+
+
+
+#cupom {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    border-radius: 15px;
+}
+
+#clique {
+    background-color: #AAD0E8;
+    margin-top: 50px;
+}
