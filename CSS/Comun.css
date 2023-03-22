@@ -7,7 +7,7 @@ body {
     font-family: 'Calibri';
     font-size: 36px;
     margin: 0;
-    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif); 
 
 }
 
@@ -20,26 +20,30 @@ header {
     background-color: #AAD0E8;
     height: 250px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: center; */
 }
 
-header img{
+header img {
     margin: 25px 0px 0px 25px;
 }
 
 header h1 {
     font-size: 75px;
     font-weight: lighter;
+    text-decoration: underline;
+    justify-content: right;
 }
 
 
-footer{
-    background: #AAD0E8;
+footer {
+    background-color: #AAD0E8;
     font-size: 15px;
     width: 100%;
     height: 60px;
-    position: absolute;
+    padding-top: 1px;
     bottom: 0;
     left: 0;
     text-align: center;
-    }
+}
+

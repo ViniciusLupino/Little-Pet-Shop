@@ -1,0 +1,164 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #E4FAFE;
+  display: flex;
+  flex-direction: column; 
+}
+
+header{
+    height: 180px;
+    background-color: #AAD0E8;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#logo{
+    height: 160px;
+    padding: 15px 30px;
+}
+
+#container{
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+}
+
+#contato{
+    display: flex;
+    padding: 40px 0px;
+}
+
+#dados{
+    width: 50%;
+    margin-right: 30px;
+}
+
+#mapa {
+    width: 50%;
+    margin-left: 30px;
+}
+
+#frm-contato {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+#frm-contato input, textarea{
+    font-family: 'Calibri';
+    font-size: 18px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: solid 1px black;
+    padding: 5px 10px;
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+}
+
+#caixa{
+    background-color: #AAD0E8;
+    height: 100px;
+}
+
+button{
+    margin: 25px 15px 0px 15px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Calibri';
+    font-size: 18px;
+}
+
+#botao-enviar{
+    background-color: #AAD0E8;
+    color: #ffffff;
+}
+
+#botao-apagar{
+    background-color: #d3d3d3;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #AAD0E8;
+    text-align: center;
+    color: black;
+    height: 100px;
+    width: 100%;
+    font-size: 22px;
+}
+
+/**/
+
+#menu-dropdown ul{
+    background-color: #20B2AA;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu-dropdown li{
+    float: left;
+    border-right: 1px solid #87CEEB ;
+}
+
+#menu-dropdown li:last-child{
+    float: right;
+    border-right: none;
+    border-left: 1px solid #87CEEB ;
+}
+
+#menu-dropdown li a.active,
+#menu-dropdown .dropdown:hover .dropbtn{
+    background-color: #AAD0E8;
+}
+
+#menu-dropdown li a, .dropbtn{
+    font-family: 'Calibri';
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#menu-dropdown .drop-content{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 0px 10px 15px 0px rgba(black);
+    z-index: 1;
+}
+
+#menu-dropdown .dropdown:hover .drop-content{
+    display: block;
+    background-color: #AAD0E8;
+}
+
+#menu-dropdown .drop-contetnt a{
+    text-align: left;
+}
+
+#menu-dropdown .drop-contetnt a:hover{
+    color: black;
+}
