@@ -1,21 +1,63 @@
-body{
+/* Essa parte é para comandos */
+
+body {
     margin: 0;
     padding: 0;
 }
 
+
 header{
-    background-color: #AAD0E8;
+     background-color: #AAD0E8;
+     
 }
 
-header img{
-    /* margin: 25px 0px 0px 25px ; */
+#boximg{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
 }
 
+
+p {
+    text-align: left;
+}
+
+/* Essa parte é para classes e divs */
+
+#header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
 
 #imglogo {
     height: 200px;
-    /* float: left; */
 }
+
+
+#h1h1h1{
+    text-align: center;
+
+}
+
+
+
+
+#cinco{
+        display: flex;
+        justify-content: center;
+}
+
+
+#menuhorizontal ul {
+    background-color: #3EADED;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 
 #imgba {
     width: 100px;
@@ -24,43 +66,11 @@ header img{
 
 }
 
-#h1h1h1{
-    text-align: center;
-}
-
-#header {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#menuhorizontal ul {
-    background-color: #333;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
 #menuhorizontal li a {
     display: block;
@@ -72,25 +82,64 @@ header img{
 
 #menuhorizontal li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #2D6CD6;
 }
 
 #menuhorizontal li:last-child {
-    float: right;
+    /* float: right; */
     border-right: none;
-    border-left: 1px solid #bbb;
+    border-left: 1px solid #2D6CD6;
 }
 
 #menuhorizontal li a:hover {
-    background-color: #04aa6d;
+    /* background-color: #00d29a; */
+    background-color: #00B483;
 }
 
-#menuhorizontal{
+#menuhorizontal {
     padding: 0 0 50px 0;
 }
 
 
-#umaidqualquer{
-   
+#bem-vindo {
+    display: flex;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #AAD0E8;
+    width: 50%;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 10px 0;
 }
 
+#img-home {
+    width: 20%;
+    margin-right: 10px;
+}
+
+#container {
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    display: flex;
+    justify-content: center;
+}
+
+#texto {
+    display: flex;
+    font-size: 18px;
+}
+
+
+
+#cupom {
+    display: flex;
+    justify-content: center;
+}
+
+#img1 {
+    border-radius: 15px;
+}
+
+#clique {
+    background-color: #AAD0E8;
+    margin-top: 50px;
+}

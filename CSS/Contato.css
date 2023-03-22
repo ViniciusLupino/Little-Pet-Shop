@@ -106,3 +106,59 @@ footer{
     width: 100%;
     font-size: 22px;
 }
+
+/**/
+
+#menu-dropdown ul{
+    background-color: #20B2AA;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#menu-dropdown li{
+    float: left;
+    border-right: 1px solid #87CEEB ;
+}
+
+#menu-dropdown li:last-child{
+    float: right;
+    border-right: none;
+    border-left: 1px solid #87CEEB ;
+}
+
+#menu-dropdown li a.active,
+#menu-dropdown .dropdown:hover .dropbtn{
+    background-color: #AAD0E8;
+}
+
+#menu-dropdown li a, .dropbtn{
+    font-family: 'Calibri';
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#menu-dropdown .drop-content{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 0px 10px 15px 0px rgba(black);
+    z-index: 1;
+}
+
+#menu-dropdown .dropdown:hover .drop-content{
+    display: block;
+    background-color: #AAD0E8;
+}
+
+#menu-dropdown .drop-contetnt a{
+    text-align: left;
+}
+
+#menu-dropdown .drop-contetnt a:hover{
+    color: black;
+}

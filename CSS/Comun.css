@@ -24,7 +24,7 @@ header {
     /* justify-content: center; */
 }
 
-header img{
+header img {
     margin: 25px 0px 0px 25px;
 }
 
@@ -36,8 +36,8 @@ header h1 {
 }
 
 
-/* footer{
-    background: #AAD0E8;
+footer {
+    background-color: #AAD0E8;
     font-size: 15px;
     width: 100%;
     height: 60px;
@@ -45,4 +45,5 @@ header h1 {
     bottom: 0;
     left: 0;
     text-align: center;
-    } */
+}
+
