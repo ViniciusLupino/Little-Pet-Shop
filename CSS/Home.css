@@ -4,33 +4,24 @@ body{
 }
 
 header{
-    background-color: #AAD0E8;
+     background-color: #AAD0E8;
 }
 
-header img{
-    /* margin: 25px 0px 0px 25px ; */
+#boximg{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
 }
 
 
 #imglogo {
     height: 200px;
-    /* float: left; */
 }
 
-#imgba {
-    width: 100px;
-    margin: 0;
-    padding: 0;
-
-}
 
 #h1h1h1{
     text-align: center;
-}
 
-#header {
-    display: flex;
-    flex-wrap: wrap-reverse;
 }
 
 
@@ -55,7 +46,7 @@ header img{
 
 
 #menuhorizontal ul {
-    background-color: #333;
+    background-color: #3EADED;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,13 +63,13 @@ header img{
 
 #menuhorizontal li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #2D6CD6;
 }
 
 #menuhorizontal li:last-child {
-    float: right;
+    /* float: right; */
     border-right: none;
-    border-left: 1px solid #bbb;
+    border-left: 1px solid #2D6CD6;
 }
 
 #menuhorizontal li a:hover {
@@ -88,6 +79,7 @@ header img{
 #menuhorizontal{
     padding: 0 0 50px 0;
 }
+
 
 
 #umaidqualquer{
