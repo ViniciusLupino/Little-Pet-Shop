@@ -5,6 +5,7 @@ body{
 
 header{
      background-color: #AAD0E8;
+     
 }
 
 #boximg{
@@ -40,7 +41,10 @@ header{
 
 
 
-
+#cinco{
+        display: flex;
+        justify-content: center;
+}
 
 
 
@@ -73,7 +77,8 @@ header{
 }
 
 #menuhorizontal li a:hover {
-    background-color: #04aa6d;
+    /* background-color: #00d29a; */
+    background-color: #00B483;
 }
 
 #menuhorizontal{
