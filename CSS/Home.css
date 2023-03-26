@@ -1,22 +1,34 @@
 /* Essa parte é para comandos */
 
+.flex{
+    display: flex;
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 header{
-     background-color: #AAD0E8;
+     background-color: #bbe5ff;
      
 }
 
 #boximg{
     display: flex;
     height: 200px;
+    text-align: center;
     /* justify-content: space-around; */
 }
 
+#logoeimg{
+height: 24vh;
+padding: 15px;
+text-align: center;
+margin: auto;
+}
 
 
 
@@ -25,19 +37,19 @@ header{
     align-items: center;
   }
   
-  #imglogo {
+#imglogo {
     height: 100%;
     margin-right: 20px;
-    float: right;
+    float: left  ;
   }
   
   #h1h1h1 {
-    margin: 0 auto;
+    margin:  auto;
+    /* padding-bottom: 100px;     */
+    font-size: 40px;
     text-align: center;
+    font-size: 750%;
   }
-
-
-
 
 
 
@@ -77,7 +89,7 @@ p {
 
 
 #menuhorizontal ul {
-    background-color: #3EADED;
+    background-color: #609dc5;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -123,35 +135,45 @@ p {
 }
 
 #menuhorizontal {
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
 }
 
 
 #bem-vindo {
     display: flex;
+justify-self: center;
     text-align: center;
     margin: 50px auto;
-    background-color: #AAD0E8;
-    width: 50%;
+    /* background-color: #AAD0E8; */
+    width: 80%;
     flex-direction: column;
-    border-radius: 15px;
-    padding: 10px 0;
+    /* border-radius: 15px; */
+    padding: 75px 0;
+}
+
+#bemdindo{
+    font-size: 50px;
 }
 
 #img-home {
-    width: 20%;
+    width: 30%;
     margin-right: 10px;
 }
 
 #container {
-    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    /* background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif); */
     display: flex;
     justify-content: center;
 }
 
 #texto {
     display: flex;
-    font-size: 18px;
+    font-size: 35px;
+}
+
+#bemvindotexto{
+    text-align: center;
+    /* width: 90%; */
 }
 
 
@@ -159,13 +181,90 @@ p {
 #cupom {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #img1 {
-    border-radius: 15px;
+    /* border-radius: 15px; */
+/* position: absolute; */
+width: 100%;
+/* height: 371px; */
+left: 0px;
+top: 0px;
+
+background: url(image.png);
 }
 
 #clique {
-    background-color: #AAD0E8;
-    margin-top: 50px;
+    /* background-color: #AAD0E8; */
+    /* margin-top: 50px; */
+    background-color: white;
+    background: url(../Imagens/imagefundo.png);
+    text-align: center;
+    padding: 25px 0 ;
+    margin-top: 25px;
+    /* border: black solid 2px; */
+
+}
+
+.botao-formula{
+    color: white;
+    background-color: #00b384;
+    width: 245px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 36px;
+    margin: 0 60px;
+}
+
+#cliqueaqui{
+    font-size: 36px;
+    text-align: center;
+}
+
+#Faça-feliz{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    /* height: 80%; */
+}
+
+#img-pet-feliz{
+    width: 530px;
+}
+
+.textofeliz{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+#texto-pet-feliz{
+
+    margin: auto 0;
+    text-align: center;
+}
+
+
+.caixa0 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.mil-e-setenta-e-sete-por-cento-e-cinquenta{
+    width: 1077px;
+    height: 150px;
+    font-size: 25px;
+}
+
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro p {
+    margin: 0;
 }
