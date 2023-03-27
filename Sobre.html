@@ -5,24 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Little Pet Shop</title>
-
-    <link rel="stylesheet" type="text/css" href="css/Comun.css" />
     <link rel="stylesheet" type="text/css" href="css/Sobre.css" />
 
-    <title>Sobre Nós</title>
+    <title>Document</title>
 </head>
 
 <body>
+
     <header>
-        <img id="logo" src="Imagens/Little Pet Shop.png" alt="logotipo" />
+
+        <div class="flex">
+            <div id="logoeimg">
+                <img src="Imagens/1679786786620-thumbnail-removebg-preview.png" id="imglogo">
+            </div>
+        </div>
+
+
+
+        <nav id="menuhorizontal">
+            <ul id="cinco">
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Sobre.html">SOBRE</a></li>
+                <li><a href="#">NOSSOS SERVIÇOS</a></li>
+                <li><a href="Contato.html">CONTATOS</a></li>
+                <li><a href="Agendamento.html">AGENDAMENTO</a></li>
+                <li><a href="Cadastro.html">CADASTRO DE PET</a></li>
+                <li><a href="Login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+
     </header>
 
 
     <div id="container">
-        <h1>Sobre nosso Pet Shop</h1>
+
+        <div>
+            <h1 id="titulopetshop">SOBRE NOSSO PET SHOP</h1>
+        </div>
 
         <div id="conteudo-empresa">
+
+
 
             <div id="video-empresa"><!--inicio da div video-empresa-->
                 <video autoplay muted loop>
@@ -69,28 +92,94 @@
         </div><!--fim da div missao, visao, valores-->
 
 
-        <div id="Funcionarios">
-            <h2>Conheça nossos funcionários</h2>
+        <div id="Funcionarios"> <!--Inicio da div funcionarios-->
 
-            <a href="#">
-                <img src="Imagens/funcionarios/Design sem nome (1).png" alt="imagem funcionario" />
-            </a>
-            <a href="#">
-                <img src="Imagens/funcionarios/Design sem nome (2).png" alt="imagem funcionario" />
-            </a>
-            <a href="#">
-                <img src="Imagens/funcionarios/Design sem nome (3).png" alt="imagem funcionario" />
-            </a>
-            <a href="#">
-                <img src="Imagens/funcionarios/Design sem nome.png" alt="imagem funcionario" />
-            </a>
+            <!-- <h2>Conheça nossos funcionários</h2>
+            <div id="Funfunarios">
+                <a href="#">
+                    <img src="Imagens/funcionarios/Design sem nome (1).png" alt="imagem funcionario"
+                    class="img-funcionario" id="imgfuncio1"/>
+                </a>
+                <a href="#">
+                    <img src="Imagens/funcionarios/Design sem nome (2).png" alt="imagem funcionario"
+                        class="img-funcionario" id="imgfuncio2"/>
+                </a>
+                <a href="#">
+                    <img src="Imagens/funcionarios/Design sem nome (3).png" alt="imagem funcionario"
+                    class="img-funcionario" id="imgfuncio3"/>
+                </a>
+                <a href="#">
+                    <img src="Imagens/funcionarios/Design sem nome.png" alt="imagem funcionario"
+                     class="img-funcionario" id="imgfuncio0"/>
+                </a>
+            </div> -->
 
-            <p>Marcela Gilberto Jeferson Amanda</p>
 
-        </div> <!--fim da div funcionarios-->
 
-        <h3>Nosso Pet Shop tem alvará de funcionamento da Prefeitura municipal de Brotas,
-            desde 2019, conforme mostra abaixo:</h3>
+            <div id="Funfunarios">
+                <div>
+                    <h1>CONHEÇA NOSSOS FUNCIONÁRIOS</h1>
+                </div>
+                <div id="coluna">
+                    <div class="imagem">
+                        <img src="Imagens/funcionarios/Design sem nome.png" id="imgfuncio0">
+                        <span class="texto-imagem">
+
+                            NOME: Marcela<br>
+                            ESPECIFICÃO: Banho/Tosa <br>
+                            IDADE: 22 anos <br>
+                            FORMAÇÃO: SENAI, Conclusão em 2020
+
+                        </span>
+                    </div>
+
+                    <div class="imagem">
+                        <img src="Imagens/funcionarios/Design sem nome (1).png" id="imgfuncio1">
+                        <span class="texto-imagem">
+
+                            NOME: AMANDA<br>
+                            ESPECIFICÃO: Banho/Tosa <br>
+                            IDADE: 22 anos <br>
+                            FORMAÇÃO: SENAI, Conclusão em 2020
+
+                        </span>
+                    </div>
+
+                    <div class="imagem">
+                        <img src="Imagens/funcionarios/Design sem nome (2).png" id="imgfuncio2">
+                        <span class="texto-imagem">
+
+                            NOME: Gilberto<br>
+                            ESPECIFICÃO: Banho/Tosa <br>
+                            IDADE: 22 anos <br>
+                            FORMAÇÃO: SENAI, Conclusão em 2020
+
+                        </span>
+                    </div>
+
+                    <div class="imagem">
+                        <img src="Imagens/funcionarios/Design sem nome (3).png" id="imgfuncio3">
+                        <span class="texto-imagem">
+
+                            NOME: Jeferson<br>
+                            ESPECIFICÃO: Banho/Tosa <br>
+                            IDADE: 22 anos <br>
+                            FORMAÇÃO: SENAI, Conclusão em 2020
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div><!--fim da div funcionarios-->
+
+
+
+
+
+
+        <div id="alvara22"></div>
+        <h1 id="titulopetshop">Nosso Pet Shop tem alvará de funcionamento da Prefeitura municipal de Brotas,
+            desde 2019, conforme mostra abaixo:</h1>
         <div id="Alvara">
             <a href="#">
                 <img src="Imagens/Alvara pet shop.png" alt="imagem alvará" />
@@ -100,13 +189,13 @@
     </div>
 
 
-
-
+    </div>
 
     <footer>
-        <p>TODOS OS DIREITOS RESERVADOS<br>
+        <p>TODOS OS DIREITOS RESERVADOS.<br>
             Desenvolvido por: Pinpinha Softers</p>
     </footer>
+
 </body>
 
 </html>
