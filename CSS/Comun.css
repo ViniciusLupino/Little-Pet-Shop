@@ -1,0 +1,29 @@
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+/* NAO MEXER NESSE, E SE MEXER AVISAR TODOS */
+
+body {
+    background-color: #E4FAFE;
+    font-family: 'Calibri';
+    font-size: 36px;
+    margin: 0;
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif); 
+
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url(../Fontes/calibri.ttf) format(truetype);
+}
+
+footer {
+    background-color: #AAD0E8;
+    font-size: 15px;
+    width: 100%;
+    height: 60px;
+    padding-top: 1px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+

@@ -1,0 +1,101 @@
+#container h1 {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: bold;
+    font-size: 50px;
+    margin: 50px 180px;
+}
+
+#casing {
+    background-color: #AAD0E8;
+    margin: 50px 100px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.fotinha {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px 0 0;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro p {
+    margin: 0;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 60px 50px 0;
+}
+
+.caixa0 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.seiscentos {
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.quatrocentos-e-vinte {
+    width: 420px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.quinhentos-e-trinta {
+    width: 530px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.duzentos {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.trezentos-e-dez {
+    width: 310px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.caixa20 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 50px 0;
+}
+
+.mil-e-setenta-e-sete-por-cento-e-cinquenta{
+    width: 1077px;
+    height: 150px;
+    font-size: 25px;
+}
+
+textarea{
+    resize: none;
+}
+
+.botao-formula{
+    color: white;
+    background-color: #00b384;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 36px;
+    margin: 0 60px;
+}
+
+a{
+    color: #00b384;
+}
