@@ -1,5 +1,6 @@
 /* Id's e classes */
 
+<<<<<<< HEAD
 header {
 
     display: flex;
@@ -75,6 +76,22 @@ header {
 
 #menuhorizontal {
     padding: 0 0 10px 0;
+=======
+#Nome {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#Logo {
+    height: 200px;
+    width: 198.4px;
+    margin-top: 25px;
+    margin-left: 15px;
+    float: left;
+>>>>>>> 433dc72a8d0cf2a1ff8127ea966b170aef4dcbf8
 }
 
 #imagem-perfil {
@@ -82,10 +99,13 @@ header {
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
 .flex {
     display: flex;
 }
 
+=======
+>>>>>>> 433dc72a8d0cf2a1ff8127ea966b170aef4dcbf8
 #Login {
     display: flex;
     flex-direction: column;

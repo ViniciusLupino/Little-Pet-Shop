@@ -83,3 +83,87 @@ header {
 .flex {
     display: flex;
 }
+
+#container h1 {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: bold;
+    font-size: 50px;
+    margin: 50px 180px;
+}
+
+#container {
+    background-color: #AAD0E8;
+    margin: 50px 100px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.caixa-master {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 50px 0;
+}
+
+.caixinha, option {
+    width: 530px;
+    height: 102.86px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.caixa-master p{
+    margin: 0;
+}
+
+.fotinha{
+    width: 40px;
+    height: 40px;
+}
+
+.caixa-direita{
+    margin: 0 0 0 13px;
+}
+
+.caixinha2, .option2{
+    width: 349px;
+    height: 102.86px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.botao-agenda{
+    color: white;
+    background-color: #00b384;
+    width: 300px;
+    height: 103.9px;
+    font-size: 36px;
+    border-radius: 15px;
+}
+
+hr{
+    padding: 5px 0 0 0;
+    background-color: black;
+}
+
+#caixa-fora{
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 79px;
+}
+
+#caixa-dentro{
+    background-color: #AAD0E8;
+    border-radius: 80px;
+    text-align: center;
+}
+
+#caixa-dentro :last-child{
+    padding-bottom: 20px;
+}
+
+#caixa-dentro :first-child{
+    padding-top: 20px;
+}

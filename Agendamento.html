@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    
     <header>
 
         <div class="flex">
@@ -38,14 +37,87 @@
 
     <div id="container">
         <div id="Cabeça-container">
-            <p></p>
-        </div>
-    </div>
+            <div id="container">
+                <h1>Agende seu Horário</h1>
+                <form action="#">
+                    <div class="caixa-master">
+                        <div class="caixa">
+                            <p><img class="fotinha" src="Imagens/briefcase.png">Tipo de Serviço</p>
+                            <select class="caixinha" required>
+                                <option>Banho R$25,00</option>
+                                <option>Tosa R$25,00</option>
+                                <option>Banho e Tosa R$45,00</option>
+                                <option>Vacinação R$20,00</option>
+                                <option>Consulta Veteninária R$50,00</option>
+                                <option>Pacote(todos os serviços) R$100,00</option>
+                            </select>
+                        </div>
+                        <div class="caixa-direita">
+                            <p><img class="fotinha" src="Imagens/dog23.png">O animal que será levado</p>
+                            <select class="caixinha" required>
+                                <option>(aqui vai aparecer os animais cadastrados)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="caixa-master">
+                        <div class="caixa">
+                            <p><img class="fotinha" src="Imagens/truck.png">Transporte do Pet</p>
+                            <select class="caixinha2" required>
+                                <option>O cliente vem buscar</option>
+                                <option>Nós iremos buscar</option>
+                                <option>O pet vem sozinho</option>
+                            </select>
+                        </div>
+                        <div class="caixa-direita">
+                            <p><img class="fotinha" src="Imagens/alternate-calendar.png">Data</p>
+                            <input type="date" class="caixinha2" required>
+                        </div>
+                        <div class="caixa-direita">
+                            <p><img class="fotinha" src="Imagens/clock.png">Horário</p>
+                            <input type="time" class="caixinha2" required>
+                        </div>
+                    </div>
+                    <div class="caixa-master">
+                        <div class="caixa">
+                            <p><img class="fotinha" src="Imagens/credit-card.png">Forma de pagamento</p>
+                            <select class="caixinha" required>
+                                <option>Dinheiro</option>
+                                <option>Cheque</option>
+                                <option>Boleto</option>
+                                <option>Pix</option>
+                                <option>Cartão de crédito</option>
+                            </select>
+                        </div>
+                        <div class="caixa-direita">
+                            <p><img class="fotinha" src="Imagens/barcode.png">Código para desconto</p>
+                            <input class="caixinha" type="text" placeholder="Insira seus Cupons aqui">
+                        </div>
+                    </div>
+                    <div class="caixa-master">
+                        <button class="botao-agenda" type="submit" formaction="#">Agendar</button>
+                    </div>
+                </form>
+                <hr>
+                <h1>Horários</h1>
+                <div id="caixa-fora">
+                    <div id="caixa-dentro">
+                        <p>Segunda ________________________ 9:30-15:30</p>
+                        <p>Terça ________________________ 9:30-15:30</p>
+                        <p>Quarta ________________________ 9:30-15:30</p>
+                        <p>Quinta ________________________ 9:30-15:30</p>
+                        <p>Sexta ________________________ 9:30-15:30</p>
+                        <p>Sábado ________________________ 9:30-15:30</p>
+                        <p>Domigo ________________________ 9:30-15:30</p>
+                        <p>Feriados ________________________ Fechado</p>
+                    </div>
 
-    <footer>
-        <p>TODOS OS DIREITOS RESERVADOS<br>
-            Desenvolvido por: Pinpinha Softers</p>
-    </footer>
+                </div>
+            </div>
+
+            <footer>
+                <p>TODOS OS DIREITOS RESERVADOS<br>
+                    Desenvolvido por: Pinpinha Softers</p>
+            </footer>
 
 
 </body>

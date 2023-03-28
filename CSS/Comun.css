@@ -16,6 +16,29 @@ body {
     src: url(../Fontes/calibri.ttf) format(truetype);
 }
 
+<<<<<<< HEAD
+=======
+header {
+    background-color: #AAD0E8;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+header img {
+    margin: 25px 0px 0px 25px;
+}
+
+header h1 {
+    font-size: 75px;
+    font-weight: lighter;
+    text-decoration: underline;
+    justify-content: right;
+}
+
+
+>>>>>>> 433dc72a8d0cf2a1ff8127ea966b170aef4dcbf8
 footer {
     background-color: #AAD0E8;
     font-size: 15px;
