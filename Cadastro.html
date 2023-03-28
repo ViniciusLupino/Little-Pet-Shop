@@ -5,19 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="css/Comun.css" />
+
     <link rel="stylesheet" type="text/css" href="css/Cadastro.css" />
 
     <title>Cadastre-se agora</title>
 </head>
 
-<body>
+
+
     <header>
-        <img src="Imagens/Logo Pet Shop.jfif" alt="">
+
+        <div class="flex">
+            <div id="logoeimg">
+                <img src="Imagens/1679786786620-thumbnail-removebg-preview.png" id="imglogo">
+            </div>
+        </div>
+
+
+
+        <nav id="menuhorizontal">
+            <ul id="cinco">
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Sobre.html">SOBRE</a></li>
+                <li><a href="#">NOSSOS SERVIÇOS</a></li>
+                <li><a href="Contato.html">CONTATOS</a></li>
+                <li><a href="Agendamento.html">AGENDAMENTO</a></li>
+                <li><a href="Cadastro.html">CADASTRO DE PET</a></li>
+                <li><a href="Login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+
     </header>
+
+<div id="contaiinermaster">
+
     <div id="container">
-        <h1>Cadastro Pessoal</h1>
+
+        <h1>CADASTRO PESSOAL</h1>
         <form action="#">
+
+
             <div class="cadastro">
                 <div class="caixa">
                     <p><img class="fotinha" src="Imagens/user.png">Nome</p>
@@ -52,7 +79,10 @@
                     <input class="trezentos-e-dez" type="text" placeholder="Digite o nome do seu bairro" required>
                 </div>
             </div>
-            <h1>Cadastro do Pet</h1>
+
+
+            <h1>CADASTRO DO PET</h1>
+
             <div class="cadastro">
                 <div class="caixa">
                     <p><img class="fotinha" src="Imagens/cat.png">Nome do Pet</p>
@@ -91,11 +121,14 @@
                 <button class="botao-formula" type="reset">Apagar</button>
             </div>
         </form>
-        <div class="cadastro">
-            Tem mais de um Pet?<a>Cadastre outro aqui.</a>
-        </div>
-    </div>
 
+        
+        <div class="cadastro" id="cadastre-outro">
+            Tem mais de um Pet? &NonBreakingSpace;<a href="#">    Cadastre outro aqui.</a>
+        </div>
+
+    </div>
+</div>
     <footer>
         <p>TODOS OS DIREITOS RESERVADOS<br>
             Desenvolvido por: Pinpinha Softers</p>
