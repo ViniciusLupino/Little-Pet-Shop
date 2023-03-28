@@ -35,7 +35,17 @@ footer {
     height: 24vh;
     padding: 15px;
     text-align: center;
+ 
+}
+
+#logo-title{
+    font-size: 45px;
+    text-align: center;
     margin: auto;
+}
+
+#idheader{
+    align-items: center;
 }
 
 #imglogo {
@@ -119,7 +129,7 @@ body{
     align-items: center;
 } */
 
-h1{
+#hh1{
     margin-bottom: -5px;
     margin-top: 15px;
     padding-bottom: 10px;

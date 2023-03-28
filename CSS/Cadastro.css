@@ -34,8 +34,17 @@ footer {
 #logoeimg {
     height: 24vh;
     padding: 15px;
+    text-align: left;
+}
+
+#logo-title{
+    font-size: 45px;
     text-align: center;
     margin: auto;
+}
+
+#idheader{
+    align-items: center;
 }
 
 #imglogo {
@@ -147,10 +156,10 @@ background-color: #609dc5;
     padding: 40px;
 
 
-    background-color: #AAD0E8;
+    /* background-color: #AAD0E8;
     border-radius: 50px;
     
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1); */
 
 
 
@@ -264,14 +273,44 @@ input, select, textarea{
 background-color: #609dc5;
     color: white;
 
+    margin: 0 180px;
 }
 
 #cadastre-outro a{
     font-size: 25px;
     color: #000000;
+    
 }
 
 #cadastre-outro a:hover{
     font-size: 25px;
     color: #f9f9f9;
+}
+
+
+
+#idtudo1{
+    background-color: #AAD0E8;
+    border-radius: 50px;
+    
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    
+    padding-top: 1px;
+
+
+    margin-bottom: 75px;
+}
+
+#idtudo2{
+    background-color: #AAD0E8;
+    border-radius: 50px;
+    
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+    padding-top: 1px;
+
+    padding-bottom: 35px;
+
+    
+
 }

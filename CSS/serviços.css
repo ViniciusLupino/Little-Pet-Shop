@@ -35,14 +35,17 @@ footer {
     height: 24vh;
     padding: 15px;
     text-align: center;
+ 
+}
+
+#logo-title{
+    font-size: 45px;
+    text-align: center;
     margin: auto;
 }
 
-#imglogo {
-    height: 100%;
-    margin-right: 20px;
-    float: left;
-    justify-content: center;
+#idheader{
+    align-items: center;
 }
 
 #cinco {
