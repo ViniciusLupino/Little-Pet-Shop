@@ -16,6 +16,8 @@ body {
     src: url(../Fontes/calibri.ttf) format(truetype);
 }
 
+<<<<<<< HEAD
+=======
 header {
     background-color: #AAD0E8;
     height: 250px;
@@ -36,6 +38,7 @@ header h1 {
 }
 
 
+>>>>>>> 433dc72a8d0cf2a1ff8127ea966b170aef4dcbf8
 footer {
     background-color: #AAD0E8;
     font-size: 15px;

@@ -5,20 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="css/Comun.css" />
     <link rel="stylesheet" type="text/css" href="css/Cadastro.css" />
 
     <title>Cadastre-se agora</title>
 </head>
 
-<body>
-    <header>
-        <img src="Imagens/Logo Pet Shop.jfif" alt="">
-    </header>
+
+
+<header>
+
+    <div id="idheader" class="flex">
+
+        <div id="logoeimg">
+            <img src="Imagens/logonova.png" id="imglogo" class="boximg">
+        </div>
+        <div id="logo-title">
+            <h1 id="h1h1h1" class="center-text">LITTLE PET SHOP</h1>
+        </div>
+
+
+    </div>
+
+
+
+    <nav id="menuhorizontal">
+        <ul id="cinco">
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="Sobre.html">SOBRE</a></li>
+            <li><a href="Nossos-servicos.html">NOSSOS SERVIÇOS</a></li>
+            <li><a href="Contato.html">CONTATOS</a></li>
+            <li><a href="Agendamento.html">AGENDAMENTO</a></li>
+            <li><a href="Cadastro.html">CADASTRO</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<div id="contaiinermaster">
+
     <div id="container">
-        <div id="casing">
-            <h1>Cadastro Pessoal</h1>
+
+        <div id="idtudo1">
+
+            <h1>CADASTRO PESSOAL</h1>
             <form action="#">
+
+
                 <div class="cadastro">
                     <div class="caixa">
                         <p><img class="fotinha" src="Imagens/user.png">Nome</p>
@@ -53,7 +86,30 @@
                         <input class="trezentos-e-dez" type="text" placeholder="Digite o nome do seu bairro" required>
                     </div>
                 </div>
-                <h1>Cadastro do Pet</h1>
+
+                <div class="cadastro">
+                    <button class="botao-formula" type="submit" formaction="#">Cadastrar</button>
+                    <button class="botao-formula" type="reset">Apagar</button>
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div id="idtudo2">
+
+            <h1>CADASTRO DO PET</h1>
+            <form action="#">
+
                 <div class="cadastro">
                     <div class="caixa">
                         <p><img class="fotinha" src="Imagens/cat.png">Nome do Pet</p>
@@ -84,24 +140,27 @@
                     <div class="caixa0">
                         <p><img class="fotinha" src="Imagens/clipboard.png">Observações</p>
                         <textarea class="mil-e-setenta-e-sete-por-cento-e-cinquenta" type="text"
-                            placeholder="Escreva sobre o seu pet" required></textarea>
+                            placeholder="Escreva sobre o seu pet"></textarea>
                     </div>
                 </div>
                 <div class="cadastro">
-                    <button class="botao-formula" type="submit" formaction="#">Cadastrar</button>
+                    <button class="botao-formula" type="submit" type="reset" formaction="#">Cadastrar</button>
                     <button class="botao-formula" type="reset">Apagar</button>
                 </div>
             </form>
-            <div class="cadastro">
-                Tem mais de um Pet?<a>Cadastre outro aqui.</a>
+
+
+            <div class="cadastro" id="cadastre-outro">
+                Tem mais de um Pet? &NonBreakingSpace;<a href="#"> Cadastre outro aqui.</a>
             </div>
+
         </div>
     </div>
-
-    <footer>
-        <p>TODOS OS DIREITOS RESERVADOS<br>
-            Desenvolvido por: Pinpinha Softers</p>
-    </footer>
+</div>
+<footer>
+    <p>TODOS OS DIREITOS RESERVADOS<br>
+        Desenvolvido por: Pinpinha Softers</p>
+</footer>
 </body>
 
 </html>
