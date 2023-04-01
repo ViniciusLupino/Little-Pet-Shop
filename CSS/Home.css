@@ -102,14 +102,10 @@ header {
     font-family: 'Arial';
     font-style: bold;
     font-size: 50px;
-    margin: 0px 180px 50px 180px;
-
-
-    margin-top: 50px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    margin: 50px 180px 50px 180px;
+    padding: 5px 0 10px 0;
     border-radius: 50px;
-background-color: #609dc5;
+    background-color: #609dc5;
     color: white;
     text-shadow: 4px 4px  rgba(0, 0, 0, 1);
     box-shadow: 8px 8px  rgba(0, 0, 0, 1);
@@ -328,6 +324,14 @@ footer {
         width: 100%;
     }
 
+    #logo-title {
+        display: none;
+    }
+
+    #idheader{
+        flex-direction: column;
+    }
+
     #container2 {
         width: 100%;
     }
@@ -348,7 +352,9 @@ footer {
 
     #logoeimg {
         width: 100%;
+        height: auto;
         padding: 0;
+
     }
 
     .flex {
@@ -364,12 +370,14 @@ footer {
     }
 
     #menuhorizontal li a {
-        padding: 10px 5px;
-        font-size: 10px;
+        padding: 10px 4px;
+        font-size: 9px;
     }
 
     #img-pet-feliz {
         width: 100%;
+        height: auto;
+        padding-top: 10px;
     }
 
     #osdoisjuntos {
@@ -385,16 +393,8 @@ footer {
         font-size: 20px;
     }
 
-    #bemdindo {
-        font-size: 25px;
-    }
-
     #cliqueaqui {
         font-size: 20px;
-    }
-
-    .textofeliz {
-        font-size: 25px;
     }
 
     #comentariopet {
@@ -411,6 +411,25 @@ footer {
 
     #img-home {
         width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    #texto-pet-feliz {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #container2 h1{
+        width: 80%;
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        align-self: center;
+    }
+    #bem-vindo{
+        width: 80%;
     }
 }
 
