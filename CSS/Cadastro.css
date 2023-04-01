@@ -39,6 +39,8 @@ footer {
 #idheader {
     align-items: center;
     display: flex;
+    text-decoration: underline;
+
 }
 
 #imglogo {

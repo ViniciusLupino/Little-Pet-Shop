@@ -1,21 +1,46 @@
-/* Id's e classes */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
-
     display: flex;
     justify-content: center;
-
     flex-direction: column;
     flex-wrap: wrap-reverse;
     background-color: #bbe5ff;
-
 }
+
+footer {
+    background-color: #609dc5;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* INICIO----------------------- HEADER ----------------------- */
 
 #logoeimg {
     height: 24vh;
     padding: 15px;
+    text-align: left;
+}
+
+#logo-title {
+    font-size: 45px;
     text-align: center;
     margin: auto;
+    text-decoration: underline;
+}
+
+#idheader {
+    align-items: center;
+    display: flex;
+    text-decoration: underline;
+
 }
 
 #imglogo {
@@ -24,6 +49,11 @@ header {
     float: left;
     justify-content: center;
 }
+
+/* FIM----------------------- HEADER ----------------------- */
+
+/* INICIO----------------------- HEADER NAV ----------------------- */
+
 
 #cinco {
     display: flex;
@@ -39,8 +69,6 @@ header {
     overflow: hidden;
 }
 
-
-
 #menuhorizontal li a {
     font-weight: bold;
     text-shadow: 2px 2px 4px black;
@@ -52,12 +80,8 @@ header {
 }
 
 #menuhorizontal li {
-    /* float: left; */
     border-right: 1px solid #2D6CD6;
-
     text-align: center;
-
-
 }
 
 #menuhorizontal li:last-child {
@@ -69,7 +93,6 @@ header {
 }
 
 #menuhorizontal li a:hover {
-    /* background-color: #00d29a; */
     background-color: #00B483;
 }
 
@@ -77,14 +100,7 @@ header {
     padding: 0 0 10px 0;
 }
 
-#imagem-perfil {
-    width: 100%;
-    border-radius: 50%;
-}
-
-.flex {
-    display: flex;
-}
+/* FIM ----------------------- HEADER NAV ----------------------- */
 
 #Login {
     display: flex;

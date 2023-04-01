@@ -6,6 +6,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+
 
 }
 
@@ -17,6 +19,7 @@ header {
     flex-direction: column;
     flex-wrap: wrap-reverse;
     background-color: #bbe5ff;
+    
 
 }
 
@@ -45,6 +48,8 @@ footer {
 
 #idheader{
     align-items: center;
+    text-decoration: underline;
+
 }
 
 #imglogo {
@@ -132,7 +137,27 @@ text-shadow: 2px 2px 4px black;
 
 
 
+#bemdindo {
+    font-size: 50px;
+    text-decoration: underline;
 
+    background-color: #AAD0E8;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    padding-top: 1px;
+
+    margin: 0px 180px 50px 180px;
+
+
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px  rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+}
 
 
 
@@ -213,6 +238,7 @@ text-shadow: 2px 2px 4px black;
     flex-direction: column;
     justify-content: center;
     box-shadow: 8px 8px 16px black;
+    margin-bottom: 50px;
 }
 
 .Price-Grandson2 {

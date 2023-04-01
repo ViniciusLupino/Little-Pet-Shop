@@ -46,6 +46,8 @@ footer {
 
 #idheader{
     align-items: center;
+    text-decoration: underline;
+
 }
 
 #imglogo {
@@ -114,12 +116,15 @@ text-shadow: 2px 2px 4px black;
     padding: 20px 100px 50px 100px;
     text-align: center;
     background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+    
 }
 
 
 
 #conteudo-empresa{
     display: flex;
+    flex-direction: column;
+
     padding: 30px;
     justify-content: space-between;
     background-color: #bbe5ff;
@@ -148,6 +153,7 @@ text-shadow: 2px 2px 4px black;
     width: 50%;
     background-color: #bbe5ff;
     font-size: 30px;
+    text-align: left;
     
 }
 
@@ -166,9 +172,8 @@ text-shadow: 2px 2px 4px black;
     border-radius: 50px;
     margin: 50px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
-
-
 }
+
 
 #Funcionarios a {
     text-decoration: none;
@@ -188,6 +193,24 @@ text-shadow: 2px 2px 4px black;
     padding-bottom: 100px;
 }
 
+#Funfunarios h1{
+    padding: 30px;
+    text-align: center;
+    background-color: #bbe5ff;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+    margin: 0px 180px 50px 180px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px  rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    text-decoration: underline; 
+}
 
 
 #imgfuncio0:hover{
@@ -225,11 +248,16 @@ text-shadow: 2px 2px 4px black;
 #Alvara{
     display:flex;
     justify-content: center;
-
+    flex-direction: column;
     border-radius: 50px;
     padding: 15px;
     background-color: #bbe5ff;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+
+}
+
+#Alvara h1{
+    margin: 0px 180px 50px 180px;
 
 }
 
@@ -276,7 +304,7 @@ text-shadow: 2px 2px 4px black;
     opacity: 1;
   }
 
-#titulopetshop{
+.titulopetshop{
 
 
     padding: 30px;
@@ -284,12 +312,24 @@ text-shadow: 2px 2px 4px black;
     background-color: #bbe5ff;
     border-radius: 50px;
     margin-bottom: 50px;
+    margin: 0px 180px 50px 180px;
 
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
-
-
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+background-color: #609dc5;
+    color: white;
+    text-shadow: 4px 4px  rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    text-decoration: underline; 
 }   
 
 #titulopetshop{
 text-align: center;
+text-decoration: underline; 
+}
+
+#underlinenone{
+    text-decoration: none;
 }
