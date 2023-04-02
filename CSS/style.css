@@ -48,7 +48,6 @@ header {
 }
 
 #imglogo {
-    max-width: 100%;
     height: 100%;
     margin-right: 20px;
     float: left;
@@ -79,6 +78,7 @@ header {
 }
 
 #menuhorizontal li {
+    border-right: 1px solid #2D6CD6;
     text-align: center;
 }
 
@@ -86,7 +86,7 @@ header {
     float: right;
     margin-left: auto;
     border-right: none;
-    /* border-left: 1px solid #2D6CD6; */
+    border-left: 1px solid #2D6CD6;
 }
 
 #menuhorizontal li a:hover {
@@ -102,8 +102,8 @@ header {
     font-family: 'Arial';
     font-style: bold;
     font-size: 50px;
-    margin: 20px 40px;
-    padding-bottom: 10px;
+    margin: 50px 180px 50px 180px;
+    padding: 5px 0 10px 0;
     border-radius: 50px;
     background-color: #609dc5;
     color: white;
@@ -138,8 +138,7 @@ header {
     background-color: #AAD0E8;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     border-radius: 25px;
-    padding: 1px 10px 0 10px;
-    margin: 0;
+    padding-top: 1px;
 }
 
 #img-home {
@@ -233,6 +232,7 @@ header {
     margin: 50px auto;
     padding: 75px 0;
     width: 90vw;
+    /* flex-direction: column; */
     background-color: #bbe5ff;
     border-radius: 50px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
@@ -244,10 +244,8 @@ header {
     height: 70vh;
 }
 
-#textofeliz {
+.textofeliz {
     font-size: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 #texto-pet-feliz {
@@ -267,7 +265,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    /* width: 90vw; */
+    width: 90vw;
 }
 
 .mil-e-setenta-e-sete-por-cento-e-cinquenta {
@@ -300,8 +298,7 @@ header {
 
 #comentariopet {
     font-size: 36px;
-    text-align: center;
-    padding-top: 15px;
+    /* text-align: center; */
     padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -313,7 +310,7 @@ footer {
     padding: 3px 0;
     font-size: 20px;
     color: white;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px black;
 }
 
 #tomastoto {
@@ -324,17 +321,7 @@ footer {
 
 @media (max-width: 767px) {
 
-    .cadastro {
-width: 100vw;
-border-radius: 0;
-    }
 
-    #botao-formula-feliz{
-      
-        height: 150px;
-       
-    }
-    
     #menuhorizontal {
         display: flex;
         flex-wrap: wrap;
@@ -350,13 +337,9 @@ border-radius: 0;
       
       #cinco li {
         flex: 1;
-        flex-basis: 25%;
-      }
+        flex-basis: 50%;
 
-      #cinco li a{
-        font-size: 100px;
       }
-      
       
       #cinco a {
         display: block;
@@ -364,13 +347,18 @@ border-radius: 0;
         text-align: center;
         text-decoration: none;
         color: #333;
-    
-        border: 1px solid #2D6CD6;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
         border-radius: 5px;
         margin: 5px;
-
       }
-    
+      
+
+
+
+
+
+
     header {
         width: 100%;
     }
@@ -388,8 +376,8 @@ border-radius: 0;
     }
 
     #Faça-feliz {
-        width: 100vw;
-        border-radius: 0;
+        width: 80%;
+        flex-direction: column;
     }
 
     #texto {
@@ -398,7 +386,7 @@ border-radius: 0;
     }
 
     .mil-e-setenta-e-sete-por-cento-e-cinquenta {
-        width: 90%;
+        width: 100%;
     }
 
     #logoeimg {
@@ -422,11 +410,11 @@ border-radius: 0;
 
     #menuhorizontal li a {
         padding: 10px 4px;
-        font-size: 20px;
+        font-size: 9px;
     }
 
     #img-pet-feliz {
-        width: 0%;
+        width: 100%;
         height: auto;
         padding-top: 10px;
     }
@@ -437,15 +425,11 @@ border-radius: 0;
     }
 
     .caixa0 {
-        width: 100%;
-        margin: 0;
+        width: 80%;
     }
 
     #bemvindotexto {
         font-size: 20px;
-        padding: 0 23px;
-
-
     }
 
     #cliqueaqui {
@@ -454,7 +438,6 @@ border-radius: 0;
 
     #comentariopet {
         font-size: 25px;
-        width: 90vw;
     }
 
     .botao-formula {
@@ -468,40 +451,24 @@ border-radius: 0;
     #img-home {
         width: 100%;
         height: auto;
-        padding-top: 25px;
+        padding-top: 10px;
     }
 
     #texto-pet-feliz {
+        width: 100%;
         margin: 0;
         padding: 0;
     }
 
     #container2 h1{
+        width: 80%;
+        padding: 0;
+        margin: 0;
         font-size: 25px;
         align-self: center;
-        text-decoration: none;
-        text-shadow: 2px 2px rgba(0, 0, 0, 1);
     }
-
     #bem-vindo{
         width: 80%;
-        padding: 10px 0;
-    }
-
-    #textofeliz{
-        padding: 10px 0;
-        width: 80vw;
-    }
-
-    #textofeliz h1{
-        padding: 10px 0;
-        width: 0%;
-
-    }
-
-    #bemdindo{
-        width: 80%;
-
     }
 }
 
@@ -515,7 +482,7 @@ border-radius: 0;
     }
 
     #Faça-feliz {
-        /* width: 80%; */
+        width: 80%;
         flex-direction: column;
     }
 
@@ -539,7 +506,6 @@ border-radius: 0;
 
     #imglogo {
         width: 100%;
-
     }
 
     #menuhorizontal {
@@ -567,6 +533,7 @@ border-radius: 0;
     #bemvindotexto {
         font-size: 30px;
     }
+
     #bemdindo {
         font-size: 40px;
     }
@@ -575,9 +542,8 @@ border-radius: 0;
         font-size: 30px;
     }
 
-    #textofeliz {
+    .textofeliz {
         font-size: 35px;
-       
     }
 
     #comentariopet {
