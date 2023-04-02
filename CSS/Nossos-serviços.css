@@ -33,7 +33,6 @@ footer {
 
 }
 
-/* ----------------------- */
 #logoeimg {
     height: 24vh;
     padding: 15px;
@@ -86,12 +85,8 @@ text-shadow: 2px 2px 4px black;
 }
 
 #menuhorizontal li {
-    /* float: left; */
     border-right: 1px solid #2D6CD6;
-
     text-align: center;
-
-
 }
 
 #menuhorizontal li:last-child {
@@ -103,7 +98,6 @@ text-shadow: 2px 2px 4px black;
 }
 
 #menuhorizontal li a:hover {
-    /* background-color: #00d29a; */
     background-color: #00B483;
 }
 
@@ -111,70 +105,23 @@ text-shadow: 2px 2px 4px black;
     padding: 0 0 10px 0;
 }
 
-/* -------------- */
-
-#cadastro-pessoal {
-    background-color: #AAD0E8;
-    border-radius: 50px;
-    
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
-    
-    /* padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px; */
-
-    margin: 50px 50px;
-    padding: 0 100px;
-
-}
-
-
-
-
-
-
-
-
-
-
 #bemdindo {
     font-size: 50px;
     text-decoration: underline;
-
     background-color: #AAD0E8;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     border-radius: 25px;
     padding-top: 1px;
-
     margin: 0px 180px 50px 180px;
-
-
     margin-top: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
     border-radius: 50px;
-background-color: #609dc5;
+    background-color: #609dc5;
     color: white;
     text-shadow: 4px 4px  rgba(0, 0, 0, 1);
     box-shadow: 8px 8px  rgba(0, 0, 0, 1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* --------------------------------------------------------------------------------- */
 
 #Container {
     display: flex;
@@ -191,13 +138,17 @@ background-color: #609dc5;
     padding: 0 40px;
 }
 
-/* --------------------------------------------------------------------------------- */
-
 #Cabeça-container {
     text-align: center;
 }
 
 .Conteudo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Conteudo2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -220,8 +171,6 @@ background-color: #609dc5;
     border-radius: 25px;
     box-shadow: 4px 4px 8px black;
 }
-
-/* ---------------------------------------------------------------------------------- */
 
 #Price-Dad{
     display: flex;
@@ -254,3 +203,141 @@ background-color: #609dc5;
     font-weight: bold;
     text-decoration: underline;
 }
+
+@media (max-width: 767px) {
+    #Mini-container{
+        padding: 0;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cabeça-container{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .Conteudo{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Conteudo2{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Paragrafo{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    .Paragrafo-Titulo{
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+    #bemdindo{
+        margin: 10px 0;
+        padding: 0;
+        width: 80%;
+        height: 80%;
+    }
+    .img-conteudo{
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+    #Container{
+        align-items: center;
+    }
+    header {
+        width: 100%;
+    }
+    #logo-title {
+        display: none;
+    }
+    #idheader{
+        flex-direction: column;
+    }
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .flex {
+        width: 100%;
+    }
+    #imglogo {
+        width: 100%;
+    }
+    #menuhorizontal {
+        width: 100%;
+    }
+    #menuhorizontal li a {
+        padding: 10px 4px;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #Mini-container{
+        padding: 0;
+        margin: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cabeça-container{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    .Conteudo{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Conteudo2{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Paragrafo{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        padding: 0 10px;
+    }
+    .Paragrafo-Titulo{
+        margin: 0;
+        padding: 0;
+        font-size: 50px;
+        text-align: center;
+    }
+    #bemdindo{
+        margin: 20px 0;
+        padding: 0;
+        width: 80%;
+        height: 80%;
+    }
+    .img-conteudo{
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    #Container{
+        align-items: center;
+    }
+    #logoeimg {
+        margin-left: 20px;
+    }
+    #menuhorizontal li a {
+        font-size: 14px;
+    }
+}
+
