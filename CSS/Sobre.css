@@ -333,3 +333,72 @@ text-decoration: underline;
 #underlinenone{
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    #container{
+        width: 100%;
+        padding: 0;
+    }
+    #Alvara img{
+        width: 100%;
+    }
+    #container .flex{
+        flex-direction: column;
+    }
+    .titulopetshop {
+        margin: 0;
+    }
+    #Funfunarios h1 {
+        margin: 0;
+    }
+    #Alvara h1{
+        margin: 0;
+    }
+    #conteudo-empresa{
+        width: 80%;
+    }
+    #missao-visao-valores{
+        width: 80%;
+        padding: 5px;
+    }
+    #Funcionarios{
+        width: 80%;
+        padding: 5px;
+    }
+    #Alvara22{
+        padding: 5px;
+        width: 80%;
+    }
+
+
+
+
+
+    header {
+        width: 100%;
+    }
+    #logo-title {
+        display: none;
+    }
+    #idheader{
+        flex-direction: column;
+    }
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .flex {
+        width: 100%;
+    }
+    #imglogo {
+        width: 100%;
+    }
+    #menuhorizontal {
+        width: 100%;
+    }
+    #menuhorizontal li a {
+        padding: 10px 4px;
+        font-size: 9px;
+    }
+}
