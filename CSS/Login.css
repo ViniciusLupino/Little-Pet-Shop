@@ -23,36 +23,39 @@ footer {
     text-shadow: 2px 2px 4px black;
 }
 
-/* INICIO----------------------- HEADER ----------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* INICIO --------------- HEADER CONFIGS --------------- */
 
 #logoeimg {
     height: 24vh;
     padding: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 #logo-title {
     font-size: 45px;
     text-align: center;
     margin: auto;
-    text-decoration: underline;
 }
 
 #idheader {
     align-items: center;
     display: flex;
     text-decoration: underline;
-
 }
 
 #imglogo {
+    max-width: 100%;
     height: 100%;
     margin-right: 20px;
     float: left;
     justify-content: center;
 }
 
-/* FIM----------------------- HEADER ----------------------- */
+/* FIM ----------------------- HEADER CONFIGS ----------------------- */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
 
 /* INICIO----------------------- HEADER NAV ----------------------- */
 
@@ -61,7 +64,6 @@ footer {
     display: flex;
     justify-content: center;
 }
-
 
 #menuhorizontal ul {
     background-color: #609dc5;
@@ -82,7 +84,6 @@ footer {
 }
 
 #menuhorizontal li {
-    border-right: 1px solid #2D6CD6;
     text-align: center;
 }
 
@@ -90,8 +91,6 @@ footer {
     float: right;
     margin-left: auto;
     border-right: none;
-    border-left: 1px solid #2D6CD6;
-
 }
 
 #menuhorizontal li a:hover {
@@ -104,15 +103,20 @@ footer {
 
 /* FIM ----------------------- HEADER NAV ----------------------- */
 
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* INICIO --------------- CONTEUDO SITE --------------- */
+
 #Login {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 75%;
     margin: 40px auto;
     padding: 0 40px 40px 40px;
     border-radius: 25px;
     color: #15847c;
+    text-align: center;
 }
 
 #Login h1{
@@ -138,26 +142,28 @@ padding: 20px;
     background-color: #00d29a;
     justify-content: center;
     padding: 5px 40px;
-    margin: 50px;
     border-radius: 25px;
     box-shadow: 4px 4px rgba(0, 0, 0, 1);
-
 }
 
 #Trocar {
     margin: 0 auto;
     color: #15847c;
     text-align: center;
+    
+
+
 }
 
 #trocar_usuario {
     vertical-align: middle;
     background-color: #00d29a;
     text-align: center;
-    padding: 5px 105px;
+    padding: 5px 35px;
     border-radius: 25px;
     color: white;
     box-shadow: 4px 4px rgba(0, 0, 0, 1);
+    width: 75%;
 
 }
 
@@ -169,7 +175,7 @@ padding: 20px;
     margin: 0;
 }
 
-#casing {
+#tudo {
     background-color: #AAD0E8;
     margin: 50px auto;
     border-radius: 25px;
@@ -180,7 +186,13 @@ padding: 20px;
 #nao-tem-cadastro {
     text-align: center;
     color: #15847c;
-    
+   
+}
+
+#continuar{
+    margin: 0;
+    color: #15847c;
+    text-align: center;
 }
 
 #cadastrar:hover{
@@ -200,7 +212,7 @@ padding: 20px;
 #cadastrar {
     background-color: #00d29a;
     color: white;
-    padding: 5px 105px;
+    padding: 5px 75px;
     border-radius: 25px;
     box-shadow: 4px 4px rgba(0, 0, 0, 1);
 
@@ -213,4 +225,245 @@ a {
 
 #imagem-perfil{
     border-radius: 50px;
+}
+
+
+/* ------------------------------------------------------ RESPOSIVIDADE --------------------------------------------------------------------- */
+
+
+@media (max-width: 767px) {
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {
+        font-size: 100px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        width: 100%;
+    }
+
+    #menuhorizontal li a {
+        padding: 10px 4px;
+        font-size: 20px;
+    }
+
+
+    .caixa0 {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .botao-formula {
+        width: 125px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #img-home {
+        width: 100%;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    #tudo{
+        width: 95%;
+    }
+
+    #imagem-perfil{
+        width: 80vw;
+    }
+
+    #Doguin{
+        width: 100%;
+        margin: unset 100px;
+
+    }
+
+    #Login p{
+    font-size: 36px;
+    }
+
+
+
+}
+
+/* ------------------------------------------------------ RESPOSIVIDADE 2 --------------------------------------------------------------------- */
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #cinco li a {
+        font-size: 100px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #container2 {
+        width: 100%;
+    }
+
+    #Faça-feliz {
+        /* width: 80%; */
+        flex-direction: column;
+    }
+
+
+    .mil-e-setenta-e-sete-por-cento-e-cinquenta {
+        width: 100%;
+    }
+
+    #logoeimg {
+        width: 100%;
+        padding: 0;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+        height: auto;
+    }
+
+    #menuhorizontal {
+        width: 100%;
+    }
+
+    #menuhorizontal li a {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+
+    #img-pet-feliz {
+        width: 100%;
+    }
+
+    #osdoisjuntos {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .caixa0 {
+        width: 80%;
+    }
+
+    #bemdindo {
+        font-size: 40px;
+    }
+
+    #cliqueaqui {
+        font-size: 30px;
+    }
+
+    #comentariopet {
+        font-size: 35px;
+    }
+
+    .botao-formula {
+        width: 175px;
+        height: 75px;
+        border-radius: 10px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    #img-home {
+        width: 100%;
+    }
 }
