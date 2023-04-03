@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
-    
+
 
 
 }
@@ -16,7 +16,7 @@ header {
 
     display: flex;
     justify-content: center;
-    
+
     flex-direction: column;
     flex-wrap: wrap-reverse;
     background-color: #bbe5ff;
@@ -38,16 +38,16 @@ footer {
     height: 24vh;
     padding: 15px;
     text-align: center;
- 
+
 }
 
-#logo-title{
+#logo-title {
     font-size: 45px;
     text-align: center;
     margin: auto;
 }
 
-#idheader{
+#idheader {
     align-items: center;
     text-decoration: underline;
 
@@ -122,15 +122,15 @@ footer {
     padding-top: 5px;
     padding-bottom: 10px;
     border-radius: 50px;
-background-color: #609dc5;
+    background-color: #609dc5;
     color: white;
-    text-shadow: 4px 4px  rgba(0, 0, 0, 1);
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
     text-decoration: underline;
 }
 
 #container {
-    
+
     margin: 50px 100px;
     padding: 40px;
     border-radius: 25px;
@@ -141,52 +141,55 @@ background-color: #609dc5;
     justify-content: center;
     padding: 0 0 50px 0;
 
-    
 
-    
+
+
 }
 
-.caixinha, option {
+.caixinha,
+option {
     width: 530px;
     height: 102.86px;
     background-color: white;
     border: 2px solid black;
     font-size: 30px;
-    
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
 
-    
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+
+
 }
 
-.caixa-master p{
+.caixa-master p {
     margin: 0;
 
 
 }
 
-.fotinha{
+.sumiço-reverço {
+    display: none;
+}
+
+.fotinha {
     width: 40px;
     height: 40px;
 }
 
-.caixa-direita{
+.caixa-direita {
     margin: 0 0 0 13px;
-
-    
-    
 }
 
-.caixinha2, .option2{
+.caixinha2,
+.option2 {
     width: 349px;
     height: 102.86px;
     background-color: white;
     border: 2px solid black;
     font-size: 30px;
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
 
 }
 
-.botao-agenda{
+.botao-agenda {
     color: white;
     background-color: #00b384;
     width: 300px;
@@ -195,49 +198,49 @@ background-color: #609dc5;
     border-radius: 15px;
 }
 
-hr{
+hr {
     padding: 5px 0 0 0;
     background-color: black;
 }
 
-#caixa-fora{
+#caixa-fora {
     background-color: white;
     padding: 30px 40px;
     border-radius: 79px;
 }
 
-#caixa-dentro{
-display: flex;
-justify-content: center;
-font-size: 30px;
+#caixa-dentro {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 
     background-color: #609dc5;
     border-radius: 80px;
     text-align: center;
     margin: 0px 180px 0px 180px;
     margin-bottom: 50px;
-    
+
 
     margin-top: 50px;
     padding-top: 5px;
     padding-bottom: 10px;
     border-radius: 50px;
-background-color: #609dc5;
+    background-color: #609dc5;
     color: white;
-    text-shadow: 2px 2px  rgba(0, 0, 0, 1);
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
 
 }
 
 
-#horarios-info{
+#horarios-info {
     background-color: #AAD0E8;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     border-radius: 25px;
     padding-top: 1px;
 }
 
-#horarios{
+#horarios {
     background-color: #AAD0E8;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     border-radius: 25px;
@@ -248,9 +251,9 @@ background-color: #609dc5;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
 }
 
-#horario-texto{
+#horario-texto {
     margin-top: 50px;
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
 }
 
 
@@ -261,13 +264,13 @@ background-color: #609dc5;
         display: none;
     }
 
- .img-conteudo {
+    .img-conteudo {
         width: 80%;
         height: auto;
         margin-top: 10px;
     }
 
-   header {
+    header {
         width: 100%;
     }
 
@@ -309,7 +312,7 @@ background-color: #609dc5;
 
     #menuhorizontal li a {
         padding: 10px 4px;
-    font-size: 20px;
+        font-size: 20px;
     }
 
 
@@ -325,20 +328,180 @@ background-color: #609dc5;
         margin: 5px;
 
     }
+
+    /* ----------------------- */
+
+    #horarios-info {
+        width: 90%;
+        margin: 50px auto auto auto;
+    }
+
+    #horarios-info h1 {
+        margin: 7px 10px 5px 5px;
+        padding: 15px 5px;
+    }
+
+    #container {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* ---------------------------- */
+
+    #horarios {
+        width: 90%;
+        padding-bottom: 25px;
+        margin: 51px auto 50px auto;
+
+    }
+
+    #horario-texto {
+
+        padding: 15px 5px;
+    }
+
+    #container h1 {
+        font-size: 2em;
+        margin: 25px 5px;
+    }
+
+    .sumiço {
+        display: none;
+    }
+
+    .sumiço2 {
+        display: none;
+    }
+
+    .sumiço-reverço {
+        display: block;
+    }
+
+    #caixa-dentro {
+        width: 95%;
+        margin: auto;
+    }
+
+    .padEsquerda {
+        padding-left: 10px;
+    }
+
+    .padDireita {
+        padding-left: 10px;
+    }
+
+    /* -----------------------------AGENDE SEU HORARIO-------------------------- */
+
+    .caixa-master {
+        flex-direction: column;
+    }
+
+    .caixinha,
+    option {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+    }
+
+    .caixinha2,
+    option {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+
+    }
+
+    .caixa {
+        margin: 0 0 15px 13px;
+    }
+
+    .caixa-direita {
+        margin: 0 0 15px 13px;
+    }
+
+    .botao-agenda{
+        margin: auto;
+
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) and (max-width: 992px) {
     #logo-title {
         display: none;
     }
 
- .img-conteudo {
+    .img-conteudo {
         width: 80%;
         height: auto;
         margin-top: 10px;
     }
 
-   header {
+    header {
         width: 100%;
     }
 
@@ -379,7 +542,7 @@ background-color: #609dc5;
     }
 
     #menuhorizontal li a {
-        padding: 20px 10px;    
+        padding: 20px 10px;
         font-size: 20px;
     }
 
@@ -396,4 +559,96 @@ background-color: #609dc5;
         margin: 5px;
 
     }
+
+    /* ----------------------- */
+
+    #horarios-info {
+        width: 90%;
+        margin: 50px auto auto auto;
+    }
+
+    #horarios-info h1 {
+        margin: 7px 10px 5px 5px;
+        padding: 15px 5px;
+    }
+
+    #container {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* ---------------------------- */
+
+    #horarios {
+        width: 90%;
+        padding-bottom: 25px;
+        margin: 51px auto 50px auto;
+
+    }
+
+    #horario-texto {
+
+        padding: 15px 5px;
+    }
+
+    #container h1 {
+        font-size: 2em;
+        margin: 25px 5px;
+    }
+
+    .sumiço {
+        display: none;
+    }
+
+    .sumiço-reverço {
+        display: block;
+    }
+
+    #caixa-dentro {
+        width: 95%;
+        margin: auto;
+    }
+
+    .padEsquerda {
+        padding-left: 10px;
+    }
+
+    .padDireita {
+        padding-left: 10px;
+    }
+
+        /* -----------------------------AGENDE SEU HORARIO-------------------------- */
+
+        .caixa-master {
+            flex-direction: column;
+        }
+    
+        .caixinha,
+        option {
+            width: 90%;
+            height: 100px;
+            margin: auto;
+        }
+    
+        .caixinha2,
+        option {
+            width: 90%;
+            height: 100px;
+            margin: auto;
+    
+        }
+    
+        .caixa {
+            margin: 0 0 15px 13px;
+        }
+    
+        .caixa-direita {
+            margin: 0 0 15px 13px;
+        }
+    
+        .botao-agenda{
+            margin: auto;
+    
+        }
+
 }
