@@ -61,7 +61,6 @@ footer {
     justify-content: center;
 }
 
-
 #menuhorizontal ul {
     background-color: #609dc5;
     list-style-type: none;
@@ -69,8 +68,6 @@ footer {
     padding: 0;
     overflow: hidden;
 }
-
-
 
 #menuhorizontal li a {
     font-weight: bold;
@@ -83,7 +80,6 @@ footer {
 }
 
 #menuhorizontal li {
-    border-right: 1px solid #2D6CD6;
     text-align: center;
 }
 
@@ -91,8 +87,6 @@ footer {
     float: right;
     margin-left: auto;
     border-right: none;
-    border-left: 1px solid #2D6CD6;
-
 }
 
 #menuhorizontal li a:hover {
@@ -223,7 +217,7 @@ button {
 }
 
 @media (max-width: 767px) {
-    #contato{
+    #contato {
         flex-direction: column;
         width: 80%;
         margin: 0;
@@ -232,63 +226,109 @@ button {
         align-items: center;
         display: flex;
     }
-    #container{
+
+    #container {
         margin: 10px 0;
         padding: 0;
         justify-content: center;
         display: flex;
     }
-    #dados{
+
+    #dados {
         width: 80%;
         margin: 0;
     }
-    #hh1, #frm-contato, #caixa{
+
+    #hh1,
+    #frm-contato,
+    #caixa {
         width: 100%;
     }
-    #caixa{
+
+    #caixa {
         margin-top: 25px;
         padding: 0;
         height: auto;
     }
-    p{
+
+    p {
         font-size: 13px;
     }
-    #mapa{
+
+    #mapa {
         width: 100%;
         height: 200px;
         margin: 0;
     }
+
     header {
         width: 100%;
     }
+
     #logo-title {
         display: none;
     }
-    #idheader{
+
+    #idheader {
         flex-direction: column;
     }
+
     #logoeimg {
         width: 100%;
         height: auto;
         padding: 0;
     }
+
     .flex {
         width: 100%;
     }
+
     #imglogo {
         width: 100%;
     }
+
     #menuhorizontal {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
     #menuhorizontal li a {
         padding: 10px 4px;
-        font-size: 9px;
+    font-size: 20px;
     }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+ 
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #contato{
+    #contato {
         flex-direction: column;
         width: 80%;
         margin: 0;
@@ -297,29 +337,95 @@ button {
         align-items: center;
         display: flex;
     }
-    #container{
+
+    #container {
         margin: 50px 0;
         padding: 0;
         justify-content: center;
         display: flex;
     }
-    #dados{
+
+    #dados {
         width: 80%;
         margin: 0;
     }
-    #mapa{
+
+    #mapa {
         width: 100%;
         height: 450px;
         margin: 0;
     }
-    #caixa{
-        margin:50px 0;
+
+    #caixa {
+        margin: 50px 0;
     }
-    #logoeimg {
-        margin-left: 20px;
-    }
+
     #menuhorizontal li a {
         font-size: 14px;
     }
-}
 
+
+
+    #logoeimg {
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #menuhorizontal li a {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+    #logo-title {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+}

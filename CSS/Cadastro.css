@@ -54,12 +54,10 @@ footer {
 
 /* INICIO----------------------- HEADER NAV ----------------------- */
 
-
 #cinco {
     display: flex;
     justify-content: center;
 }
-
 
 #menuhorizontal ul {
     background-color: #609dc5;
@@ -80,7 +78,6 @@ footer {
 }
 
 #menuhorizontal li {
-    border-right: 1px solid #2D6CD6;
     text-align: center;
 }
 
@@ -88,8 +85,6 @@ footer {
     float: right;
     margin-left: auto;
     border-right: none;
-    border-left: 1px solid #2D6CD6;
-
 }
 
 #menuhorizontal li a:hover {
@@ -281,4 +276,149 @@ textarea {
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     padding-top: 1px;
     padding-bottom: 35px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 767px) {
+    #logo-title {
+        display: none;
+    }
+
+ .img-conteudo {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+   header {
+        width: 100%;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #menuhorizontal li a {
+        padding: 10px 4px;
+    font-size: 20px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #logo-title {
+        display: none;
+    }
+
+ .img-conteudo {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+   header {
+        width: 100%;
+    }
+
+    #idheader {
+        flex-direction: column;
+    }
+
+    #logoeimg {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    #imglogo {
+        width: 100%;
+    }
+
+    #menuhorizontal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cinco {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cinco li {
+        flex: 1;
+        flex-basis: 25%;
+    }
+
+    #menuhorizontal li a {
+        padding: 20px 10px;
+        font-size: 20px;
+    }
+
+
+    #cinco a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+
+        border: 1px solid #2D6CD6;
+        border-radius: 5px;
+        margin: 5px;
+
+    }
 }
