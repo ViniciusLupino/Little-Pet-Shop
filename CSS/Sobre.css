@@ -101,13 +101,14 @@ footer {
 #menuhorizontal {
     padding: 0 0 10px 0;
 }
+
 /* -------------- */
 
 
 #container {
     padding: 20px 100px 50px 100px;
     text-align: center;
-    
+
 
 }
 
@@ -350,13 +351,13 @@ footer {
         text-decoration: none;
     }
 
-    #Funfunarios{
+    #Funfunarios {
         /* padding-top: 15px;
         padding-bottom: 35px; */
         padding: 15px 5px 35px 5px;
     }
 
-    #coluna{
+    #coluna {
         flex-direction: column;
         padding-top: 35px;
 
@@ -375,7 +376,7 @@ footer {
         justify-content: center;
         vertical-align: middle;
 
-        
+
     }
 
     #missao-visao-valores {
@@ -397,26 +398,26 @@ footer {
         border-radius: 0;
     }
 
-    #texto-empresa{
+    #texto-empresa {
         width: 100%;
     }
 
-    #texto-empresa li{
+    #texto-empresa li {
         margin-bottom: 30px;
     }
 
-#video-empresa {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    margin-top: 30px;
+    #video-empresa {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-top: 30px;
 
-}
+    }
 
-#video-empresa video{
-    border-radius: 0;
-   
-}
+    #video-empresa video {
+        border-radius: 0;
+
+    }
 
     header {
         width: 100%;
@@ -449,9 +450,9 @@ footer {
         flex-wrap: wrap;
     }
 
-    #menuhorizontal li a{
+    #menuhorizontal li a {
         padding: 10px 4px;
-    font-size: 20px;
+        font-size: 20px;
     }
 
     #cinco {
@@ -467,9 +468,7 @@ footer {
         flex-basis: 25%;
     }
 
-    #cinco li a {
-       
-    }
+    #cinco li a {}
 
 
     #cinco a {
@@ -512,13 +511,13 @@ footer {
         text-decoration: none;
     }
 
-    #Funfunarios{
+    #Funfunarios {
         /* padding-top: 15px;
         padding-bottom: 35px; */
         padding: 15px 5px 35px 5px;
     }
 
-    #coluna{
+    #coluna {
         flex-direction: column;
         padding-top: 35px;
 
@@ -537,7 +536,7 @@ footer {
         justify-content: center;
         vertical-align: middle;
 
-        
+
     }
 
     #missao-visao-valores {
@@ -559,26 +558,26 @@ footer {
         border-radius: 0;
     }
 
-    #texto-empresa{
+    #texto-empresa {
         width: 100%;
     }
 
-    #texto-empresa li{
+    #texto-empresa li {
         margin-bottom: 30px;
     }
 
-#video-empresa {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    margin-top: 30px;
+    #video-empresa {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-top: 30px;
 
-}
+    }
 
-#video-empresa video{
-    border-radius: 0;
-   
-}
+    #video-empresa video {
+        border-radius: 0;
+
+    }
 
     header {
         width: 100%;
@@ -611,9 +610,9 @@ footer {
         flex-wrap: wrap;
     }
 
-    #menuhorizontal li a{
-    font-size: 20px;
-    padding: 20px 10px;
+    #menuhorizontal li a {
+        font-size: 20px;
+        padding: 20px 10px;
     }
 
     #cinco {
@@ -629,9 +628,7 @@ footer {
         flex-basis: 25%;
     }
 
-    #cinco li a {
-       
-    }
+    #cinco li a {}
 
 
     #cinco a {

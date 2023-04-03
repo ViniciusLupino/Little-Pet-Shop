@@ -128,12 +128,12 @@ footer {
     text-align: center;
 }
 
-#Login h1{
+#Login h1 {
     text-align: center;
     font-family: 'Arial';
     font-style: bold;
     text-decoration: underline;
-padding: 20px;
+    padding: 20px;
     border-radius: 50px;
     background-color: #609dc5;
     color: white;
@@ -159,7 +159,7 @@ padding: 20px;
     margin: 0 auto;
     color: #15847c;
     text-align: center;
-    
+
 
 
 }
@@ -195,24 +195,24 @@ padding: 20px;
 #nao-tem-cadastro {
     text-align: center;
     color: #15847c;
-   
+
 }
 
-#continuar{
+#continuar {
     margin: 0;
     color: #15847c;
     text-align: center;
 }
 
-#cadastrar:hover{
+#cadastrar:hover {
     background-color: #00B483;
 }
 
-#trocar_usuario:hover{
+#trocar_usuario:hover {
     background-color: #00B483;
 }
 
-#Doguin:hover{
+#Doguin:hover {
     background-color: #00B483;
 
 }
@@ -232,7 +232,7 @@ a {
     color: #E4FAFE;
 }
 
-#imagem-perfil{
+#imagem-perfil {
     border-radius: 50px;
 }
 
@@ -335,22 +335,22 @@ a {
         padding-top: 25px;
     }
 
-    #tudo{
+    #tudo {
         width: 95%;
     }
 
-    #imagem-perfil{
+    #imagem-perfil {
         width: 80vw;
     }
 
-    #Doguin{
+    #Doguin {
         width: 100%;
         margin: unset 100px;
 
     }
 
-    #Login p{
-    font-size: 36px;
+    #Login p {
+        font-size: 36px;
     }
 
 
@@ -366,7 +366,7 @@ a {
         display: none;
     }
 
-    
+
 
     #menuhorizontal {
         display: flex;

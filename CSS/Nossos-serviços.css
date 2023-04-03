@@ -307,7 +307,7 @@ footer {
 
     #menuhorizontal li a {
         padding: 10px 4px;
-    font-size: 20px;
+        font-size: 20px;
     }
 
 
@@ -449,6 +449,7 @@ footer {
     header {
         width: 100%;
     }
+
     .flex {
         width: 100%;
     }

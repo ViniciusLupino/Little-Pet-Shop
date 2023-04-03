@@ -419,75 +419,12 @@ hr {
         margin: 0 0 15px 13px;
     }
 
-    .botao-agenda{
+    .botao-agenda {
         margin: auto;
 
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -617,38 +554,38 @@ hr {
         padding-left: 10px;
     }
 
-        /* -----------------------------AGENDE SEU HORARIO-------------------------- */
+    /* -----------------------------AGENDE SEU HORARIO-------------------------- */
 
-        .caixa-master {
-            flex-direction: column;
-        }
-    
-        .caixinha,
-        option {
-            width: 90%;
-            height: 100px;
-            margin: auto;
-        }
-    
-        .caixinha2,
-        option {
-            width: 90%;
-            height: 100px;
-            margin: auto;
-    
-        }
-    
-        .caixa {
-            margin: 0 0 15px 13px;
-        }
-    
-        .caixa-direita {
-            margin: 0 0 15px 13px;
-        }
-    
-        .botao-agenda{
-            margin: auto;
-    
-        }
+    .caixa-master {
+        flex-direction: column;
+    }
+
+    .caixinha,
+    option {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+    }
+
+    .caixinha2,
+    option {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+
+    }
+
+    .caixa {
+        margin: 0 0 15px 13px;
+    }
+
+    .caixa-direita {
+        margin: 0 0 15px 13px;
+    }
+
+    .botao-agenda {
+        margin: auto;
+
+    }
 
 }

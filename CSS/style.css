@@ -107,8 +107,8 @@ header {
     border-radius: 50px;
     background-color: #609dc5;
     color: white;
-    text-shadow: 4px 4px  rgba(0, 0, 0, 1);
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
+    text-shadow: 4px 4px rgba(0, 0, 0, 1);
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
     text-decoration: underline;
 }
 
@@ -190,7 +190,7 @@ header {
 }
 
 
-#botao-formula-feliz{
+#botao-formula-feliz {
     color: white;
     background-color: #00b384;
     width: auto;
@@ -273,8 +273,8 @@ header {
     height: 150px;
     font-size: 25px;
 
-    box-shadow: 8px 8px  rgba(0, 0, 0, 1);
-    
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+
 }
 
 
@@ -325,23 +325,23 @@ footer {
     #menuhorizontal {
         display: flex;
         flex-wrap: wrap;
-      }
-      
-      #cinco {
+    }
+
+    #cinco {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
         padding: 0;
         margin: 0;
-      }
-      
-      #cinco li {
+    }
+
+    #cinco li {
         flex: 1;
         flex-basis: 50%;
 
-      }
-      
-      #cinco a {
+    }
+
+    #cinco a {
         display: block;
         padding: 10px;
         text-align: center;
@@ -351,8 +351,8 @@ footer {
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 5px;
-      }
-      
+    }
+
 
 
 
@@ -367,7 +367,7 @@ footer {
         display: none;
     }
 
-    #idheader{
+    #idheader {
         flex-direction: column;
     }
 
@@ -460,14 +460,15 @@ footer {
         padding: 0;
     }
 
-    #container2 h1{
+    #container2 h1 {
         width: 80%;
         padding: 0;
         margin: 0;
         font-size: 25px;
         align-self: center;
     }
-    #bem-vindo{
+
+    #bem-vindo {
         width: 80%;
     }
 }
