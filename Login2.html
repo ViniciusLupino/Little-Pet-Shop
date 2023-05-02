@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/Login2.css" />
+
+    <title>Página de Login</title>
+
+    <link rel="icon" type="image/icon" href="Imagens/image - Copia.png">
+
+</head>
+
+<body>
+    
+
+
+    <div id="container">
+
+        <img src="Imagens/logonova.png">
+
+
+        
+        <div id="erro"></div>
+
+        <div id="login">
+
+            <div id="email">
+                <p class="tamanhoMinimo">Endereço de Email</p>
+
+                <form>
+                    <input type="email" class="tamanhoMaximoEmail" name="mail" placeholder="Exemplo@email.com" id="barraEmail">
+                </form>
+            </div>
+
+
+            <div id="senha">
+                <p class="tamanhoMinimo"> Senha</p>
+
+                <form id="verSenhaDiv">
+                    <input type="password" class="tamanhoMaximo" name="password" placeholder="Senha" id="barraSenha">
+                    <div id="icon" onclick="showHide()"></div>
+                </form>
+
+            </div>
+
+
+            <input type="submit" value="Enviar" id="btnLogin" onclick="pegarEmail()">
+
+        </div>
+
+
+    </div>
+
+
+
+</body>
+<script src="js/script.js"></script>
+</html>

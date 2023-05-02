@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
+}
+
+#container {
+    background-color: #bbe5ff;
+    width: 750px;
+    height: 535;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto 65px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 500px black;
+
+
+}
+
+#container img {
+    margin: 15px 0;
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto 50px auto;
+    background-color: #609dc5;
+    width: 400px;
+    height: 170px;
+    border-radius: 50px;
+    padding: 50px 15px;
+    /* justify-content: center; */
+}
+
+#login p {
+    color: white;
+    font-size: 20px;
+}
+
+.tamanhoMinimo {
+    width: 100%;
+    margin: auto;
+}
+
+.tamanhoMaximo {
+
+    height: 25px;
+    width: 300px;
+    margin: auto;
+}
+
+.tamanhoMaximoEmail {
+    height: 25px;
+    width: 327.455px;
+    margin: auto;
+}
+
+#senha {
+    justify-content: center;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+#email {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#btnLogin {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #00B483;
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+#barraSenha{
+    box-shadow: 2px 2px 8px rgb(38, 38, 38);
+}
+
+#barraEmail{
+    box-shadow: 2px 2px 8px rgb(38, 38, 38);
+}
+
+form input{
+    padding: 0 5px;
+    font-size: 14px  ;
+
+}
+
+#icon {
+    /* position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%); */
+    margin-left: 2px;
+    background: url('../Imagens/show.png');
+    background-size: cover;
+    width: 26.455px;
+    height: 26.455px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgb(38, 38, 38);
+
+    border: 1px solid black;
+
+    background-color: white;
+}
+
+#icon.hide {
+    background: url('../Imagens/hide.png');
+    background-size: cover;
+    background-color: white;
+}
+
+#verSenhaDiv {
+    display: flex;
+}
+
+#erro{
+    display: none;
+    background-color: rgb(255, 141, 141);
+    border: 5px solid red;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+/* ==== */
+/* ==== */
+/* ==== */
+/* ==== */
+
+@media (max-width: 767px) {}

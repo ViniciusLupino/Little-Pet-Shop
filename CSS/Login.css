@@ -35,17 +35,18 @@ footer {
 }
 
 #logoeimg {
-    height: 24vh;
-    padding: 15px;
+    height: 50px;
+    width: 300px;
+    /* padding: 15px; */
     text-align: center;
 
 }
 
-#logo-title {
+/* #logo-title {
     font-size: 45px;
     text-align: center;
     margin: auto;
-}
+} */
 
 
 #idheader {
@@ -96,6 +97,16 @@ footer {
     text-align: center;
 }
 
+#listaHeaderL{
+        margin-left: auto;
+
+}
+
+#listaHeaderR{
+    margin-right: auto;
+
+}
+
 #menuhorizontal li:last-child {
     float: right;
     margin-left: auto;
@@ -107,7 +118,8 @@ footer {
 }
 
 #menuhorizontal {
-    padding: 0 0 10px 0;
+    /* padding: 0 0 10px 0; */
+    box-shadow: 4px 4px 8px black;
 }
 
 /* FIM ----------------------- HEADER NAV ----------------------- */
@@ -119,7 +131,7 @@ footer {
 #Login {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     width: 75%;
     margin: 40px auto;
     padding: 0 40px 40px 40px;
@@ -129,12 +141,13 @@ footer {
 }
 
 #Login h1 {
-    text-align: center;
+    text-align: left;
     font-family: 'Arial';
     font-style: bold;
     text-decoration: underline;
     padding: 20px;
-    border-radius: 50px;
+    width: min-content;
+    /* border-radius: 50px;  */
     background-color: #609dc5;
     color: white;
     text-shadow: 4px 4px rgba(0, 0, 0, 1);
@@ -186,10 +199,9 @@ footer {
 
 #tudo {
     background-color: #AAD0E8;
-    margin: 50px auto;
+    margin: 50px 80px;
     border-radius: 25px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
-
 }
 
 #nao-tem-cadastro {
