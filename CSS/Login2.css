@@ -20,11 +20,6 @@ body {
     border-radius: 15px;
     box-shadow: 0px 0px 500px black;
 
-    /* position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-
 
 }
 
@@ -38,9 +33,9 @@ body {
 #login {
     display: flex;
     flex-direction: column;
-    margin: auto auto 35px auto;
+    margin: auto auto 50px auto;
     background-color: #609dc5;
-    width: auto;
+    width: 400px;
     height: 170px;
     border-radius: 50px;
     padding: 50px 15px;
@@ -58,6 +53,7 @@ body {
 }
 
 .tamanhoMaximo {
+
     height: 25px;
     width: 300px;
     margin: auto;
@@ -91,44 +87,40 @@ body {
     color: white;
 }
 
-#barraSenha {
+#barraSenha{
     box-shadow: 2px 2px 8px rgb(38, 38, 38);
-    padding: 4px 90px 4px 10px;
-    border-radius: 15px;
 }
 
-#barraEmail {
+#barraEmail{
     box-shadow: 2px 2px 8px rgb(38, 38, 38);
-    padding: 4px 90px 4px 10px;
-    border-radius: 15px;
-
-
 }
 
-form input {
+form input{
     padding: 0 5px;
-    font-size: 14px;
+    font-size: 14px  ;
 
 }
 
 #icon {
+    /* position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%); */
     margin-left: 2px;
-    margin-top: 2px;
-    background: url('../Imagens/hide.png');
+    background: url('../Imagens/show.png');
     background-size: cover;
-    width: 30.600px;
-    height: 30.600px;
+    width: 26.455px;
+    height: 26.455px;
     cursor: pointer;
     box-shadow: 2px 2px 8px rgb(38, 38, 38);
 
     border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
 
+    background-color: white;
 }
 
 #icon.hide {
-    background: url('../Imagens/show.png');
+    background: url('../Imagens/hide.png');
     background-size: cover;
     background-color: white;
 }
@@ -137,34 +129,14 @@ form input {
     display: flex;
 }
 
-#erro {
+#erro{
     display: none;
     background-color: rgb(255, 141, 141);
-    /* border: 5px solid red; */
-    padding: 4px 50px;
+    border: 5px solid red;
+    padding: 2px;
     margin-bottom: 15px;
-    /* border-color: rgb(140, 204, 44); */
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px black;
 }
 
-#textoFaça {
-    font-size: 24px;
-    text-decoration: underline;
-}
-
-#cadastre-se a {
-    color: blue;
-    text-decoration: none;
-}
-
-#cadastre-se a:hover {
-    text-decoration: underline;
-}
-
-#cadastre-se {
-    padding-bottom: 15px;
-}
 
 
 /* ==== */
@@ -172,128 +144,4 @@ form input {
 /* ==== */
 /* ==== */
 
-@media (min-width: 993px) {
-    #container {
-        position: absolute;
-        top: 42%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-@media (max-width: 767px) {
-
-    #container {
-        width: 100%;
-        height: 100vh;
-        border-radius: 0;
-        margin: 0;
-        position: relative;
-        top: auto;
-        left: auto;
-    }
-
-    #login{
-        /* width: 100; */
-        margin-top: 50px;
-    }
-
-    #cadastre-se{
-        margin-bottom: auto;
-    }
-
-    .tamanhoMaximo {
-        height: 25px;
-        width: auto;
-        margin: auto;
-    }
-
-    .tamanhoMaximoEmail {
-        height: 25px;
-        padding-right: 130px;
-        width: 210px;
-        margin: auto;
-    }
-    
-
-
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-    #container {
-        margin: 25px auto;
-        display: flex;
-        align-items: center;
-        width: 90%;
-        height: 95vh;
-        border-radius: 15px;
-        position: relative;
-        top: auto;
-        left: auto;
-    }
-
-    #container img{
-        width: 450px;
-    }
-
-    #textoFaça{
-        font-size: 36px;
-    }
-
-    #login{
-        margin: 15px;
-        width: 85%;
-        height: 450px;
-    }
-
-    #barraEmail{
-        height: 100px;
-        padding-right: 275px;
-        font-size: 36px;
-    }
-
-    #tamanhoMaximoEmail{
-        padding-right: 10px;
-    }
-
-    #barraSenha{
-        height: 100px;
-        font-size: 36px;
-        padding-right: 193px;
-    }
-
-    #tamanhoMaximo{
-        padding-right: 10px;
-    }
-
-
-    #icon{
-        margin-left: 8px;
-        height: 100px;
-        width: 100px;
-    }
-
-    #tamanhoMaximoEmail{
-        padding-left: 120px;
-    }
-
-    #login p{
-        font-size: 46px;
-    }
-
-    #btnLogin{
-        margin-top: 15px;
-        height: 100px;
-        width: 500px;
-        font-size: 36px;
-    }
-
-    #cadastre-se{
-        font-size: 36px;
-    }
-
-    #erro{
-        font-size: 36px;
-    }
-}
+@media (max-width: 767px) {}

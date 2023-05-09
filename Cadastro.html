@@ -38,7 +38,7 @@
             <li><a href="Contato.html">CONTATOS</a></li>
             <li><a href="Agendamento.html">AGENDAMENTO</a></li>
             <li><a href="Cadastro.html">CADASTRO</a></li>
-            <li><a href="Login2.html">LOGIN</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
         </ul>
     </nav>
 
@@ -51,46 +51,52 @@
         <div id="idtudo1">
 
             <h1>CADASTRO PESSOAL</h1>
-            <form action="#">
-
-
+            <form id="frm1" action="#">
                 <div class="cadastro">
                     <div class="caixa">
                         <p><img class="fotinha" src="Imagens/user.png">Nome</p>
-                        <input class="seiscentos" type="text" placeholder="Digite seu nome" required>
+                        <input id="nome" class="caixinha" type="text" placeholder="Digite seu nome">
                     </div>
-                    <div class="caixa0">
-                        <p><img class="fotinha" src="Imagens/alternate-phone.png">Telefone</p>
-                        <input class="quatrocentos-e-vinte" type="tel" placeholder="(xx)xxxxx-xxxx" required>
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/envelope.png">E-mail</p>
+                        <input class="caixinha" type="email" placeholder="Digite seu E-mail">
                     </div>
                 </div>
                 <div class="cadastro">
                     <div class="caixa">
-                        <p><img class="fotinha" src="Imagens/envelope.png">E-mail</p>
-                        <input class="seiscentos" type="email" placeholder="Digite seu E-mail" required>
-                    </div>
-                    <div class="caixa0">
                         <p><img class="fotinha" src="Imagens/lock.png">Senha</p>
-                        <input class="quatrocentos-e-vinte" type="password" placeholder="Digite uma senha" required>
+                        <input class="caixinha" type="password" placeholder="Digite uma senha">
+                    </div>
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/list-ol.png">ID</p>
+                        <div id="id" class="caixinhaid">...</div>
+                    </div>
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/alternate-phone.png">Telefone</p>
+                        <input class="caixinha" type="tel" placeholder="(xx)xxxxx-xxxx">
+                    </div>
+                    <div class="caixa">
+                        <p id="-letra"><img class="fotinha" src="Imagens/alternate-calendar.png">Data de Nascimento</p>
+                        <input type="date" class="caixinha">
                     </div>
                 </div>
                 <div class="cadastro">
-                    <div class="caixa20">
-                        <p><img class="fotinha" src="Imagens/map-signs.png">Rua</p>
-                        <input class="quinhentos-e-trinta" type="text" placeholder="Digite o nome de sua rua" required>
+                    <div class="caixa">
+                        <p><img class="fotinha" src="Imagens/map-signs.png">Endereço</p>
+                        <input class="caixinha" id="ende" type="text" placeholder="Digite seu Endereço">
                     </div>
-                    <div class="caixa20">
-                        <p><img class="fotinha" src="Imagens/list-ol.png">N° da casa</p>
-                        <input class="duzentos" type="text" placeholder="Digite o n° da casa" required>
+                    <div class="caixa2">
+                        <p><img class="fotinha" src="Imagens/sign.png">Cidade</p>
+                        <input class="caixinha2" id="cid" type="text" placeholder="Digite o nome de sua cidade">
                     </div>
-                    <div class="caixa0">
-                        <p><img class="fotinha" src="Imagens/sign.png">Bairro</p>
-                        <input class="trezentos-e-dez" type="text" placeholder="Digite o nome do seu bairro" required>
+                    <div class="caixa2">
+                        <p><img class="fotinha" src="Imagens/clipboard.png">UF</p>
+                        <input class="caixinha2" id="uf" type="text" placeholder="Digite a sigla de seu estado">
                     </div>
                 </div>
-
+                <div id="erro1">...</div>
                 <div class="cadastro">
-                    <button class="botao-formula" type="submit" formaction="#">Cadastrar</button>
+                    <button onclick="validardados()" class="botao-formula" type="submit" formaction="#">Cadastrar</button>
                     <button class="botao-formula" type="reset">Apagar</button>
                 </div>
             </form>
@@ -105,38 +111,23 @@
 
             <h1>CADASTRO DO PET</h1>
             <form action="#">
-
                 <div class="cadastro">
                     <div class="caixa">
                         <p><img class="fotinha" src="Imagens/cat.png">Nome do Pet</p>
-                        <input class="seiscentos" type="text" placeholder="Digite o nome do Pet" required>
+                        <input class="caixinha" type="text" placeholder="Digite o Nome do Pet">
                     </div>
-                    <div class="caixa0">
-                        <p><img class="fotinha" src="Imagens/paw.png">Animal(espécie)</p>
-                        <input class="quatrocentos-e-vinte" type="text" placeholder="Digite a espécie do Pet" required>
+                    <div class="caixa2">
+                        <p><img class="fotinha" src="Imagens/alternate-calendar.png">Idade</p>
+                        <input class="caixinha2" type="text" placeholder="xx Anos xx Meses xx Dias">
                     </div>
-                </div>
-                <div class="cadastro">
-                    <div class="caixa">
-                        <p><img class="fotinha" src="Imagens/dog.png">Raça</p>
-                        <input class="seiscentos" type="text" placeholder="Digite a raça do Pet" required>
-                    </div>
-                    <div class="caixa0">
-                        <p><img class="fotinha" src="Imagens/ruler-combined.png">Porte</p>
-                        <select class="quatrocentos-e-vinte" required>
-                            <option>Mini(até 6 quilos)</option>
-                            <option>Pequeno(6-15 quilos)</option>
-                            <option>Médio(15-25 quilos)</option>
-                            <option>Grande(25-45 quilos)</option>
-                            <option>Gigante(+45 quilos)</option>
+                    <div class="caixa2">
+                        <p><img class="fotinha" src="Imagens/paw.png">Tipo</p>
+                        <select class="caixinha2" required>
+                            <option>Cachorro</option>
+                            <option>Gato</option>
+                            <option>Aves</option>
+                            <option>Outros</option>
                         </select>
-                    </div>
-                </div>
-                <div class="cadastro">
-                    <div class="caixa0">
-                        <p><img class="fotinha" src="Imagens/clipboard.png">Observações</p>
-                        <textarea class="mil-e-setenta-e-sete-por-cento-e-cinquenta" type="text"
-                            placeholder="Escreva sobre o seu pet"></textarea>
                     </div>
                 </div>
                 <div class="cadastro">
@@ -157,5 +148,5 @@
     <p>Desenvolvido por: PIMPINHA SOFTERS&reg;</p>
 </footer>
 </body>
-
+<script src="js/script.js" onload="fazerid()"></script>
 </html>
