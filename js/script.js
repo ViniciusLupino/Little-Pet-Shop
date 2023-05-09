@@ -2,9 +2,15 @@
 
 function pegarEmail() {
 
-    var erro = document.getElementById('erro');
-    var email = document.getElementById("barraEmail").value;
-    var senha = document.getElementById("barraSenha").value;
+    let erro = document.getElementById('erro');
+    let email = document.getElementById("barraEmail").value;
+    let senha = document.getElementById("barraSenha").value;
+
+    let padraoEmail = /^[\w-\.]+@(gmail\.com|sesisp\.org\.br|hotmail\.com|[a-zA-Z0-9-]+\.[a-zA-Z]{2,3}\.br)$/
+    let emailValido = padraoEmail.test(email);
+
+    let verificarSenha = /^(?=.*[A-Z])(?=.*\d)(?=.*\W)[A-Za-z\d\W]{8,}$/
+    let senhaValida = verificarSenha.test(senha);
 
 
 
@@ -15,26 +21,34 @@ function pegarEmail() {
 
     if (senha.trim() == '') {
         erro.style.display = 'block';
-        erro.innerHTML = ("O campo da Data não pode estar vazio");
+        erro.innerHTML = ("O campo Senha não pode estar em branco");
         return false;
     }
 
-
-// --------------------------------------------------------------------------------
-
-
-
-    //aceitar somente e-mails com domínio "gmail.com", "sesisp.org.br","hotmail.com" ou qualquer dominio ".br".
-    let padraoEmail = /^[\w-\.]+@(gmail\.com|sesisp\.org\.br|hotmail\.com|[a-zA-Z0-9-]+\.[a-zA-Z]{2,3}\.br)$/
-    let emailValido = padraoEmail.test(email);
-
-    if (emailValido) {
-        console.log("Email valido");
-    } else {
-        console.log("Email não é valido", email);
+    if (senha.length < 8) {
+        erro.style.display = 'block';
+        erro.innerHTML = ("A Senha deve conter pelo menos 8 caracteres");
+        return false;
     }
 
-// --------------------------------------------------------------------------------
+    else {
+
+        if (emailValido) {
+            window.location.replace("Home.html");
+        }
+
+        else {
+            erro.style.display = 'block';
+            erro.innerHTML = ("O Email é Invalido");
+            return false;
+        }
+
+    }
+    // --------------------------------------------------------------------------------
+
+
+
+    // --------------------------------------------------------------------------------
 
 
     let padraoSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{8,}$/;
@@ -52,12 +66,12 @@ function pegarEmail() {
 const password = document.getElementById('barraSenha');
 const icon = document.getElementById('icon');
 
-function showHide(){
-    if(password.type === 'password'){
-        password.setAttribute('type','text');
+function showHide() {
+    if (password.type === 'password') {
+        password.setAttribute('type', 'text');
         icon.classList.add('hide')
     }
-    else{
+    else {
         password.setAttribute('type', 'password');
         icon.classList.remove('hide')
     }
