@@ -1,0 +1,26 @@
+#Grafico1 {
+    margin: 20px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background-color: #bbe5ff;
+}
+
+footer {
+    background-color: #609dc5;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}

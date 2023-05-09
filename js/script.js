@@ -77,3 +77,54 @@ function showHide() {
     }
 }
 
+// *****************************************************
+
+var aleatorio = Math.random() * 10;
+var valoresCertos = Math.round(aleatorio);
+var aleatorio1 = Math.random() * 10;
+var valoresCertos1 = Math.round(aleatorio1);
+var aleatorio2 = Math.random() * 10;
+var valoresCertos2 = Math.round(aleatorio2);
+var aleatorio3 = Math.random() * 10;
+var valoresCertos3 = Math.round(aleatorio3);
+var aleatorio4 = Math.random() * 10;
+var valoresCertos4 = Math.round(aleatorio4);
+var aleatorio5 = Math.random() * 10;
+var valoresCertos5 = Math.round(aleatorio5);
+
+
+google.charts.load("current", { packages: ['corechart'] });
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ["Element", "Density", { role: "style" }],
+        ["Segunda-feira", valoresCertos1, "#00769f"],
+        ["Terça-feira", valoresCertos2, "#069ac5"],
+        ["Quarta-feira", valoresCertos3, "#0388b2"],
+        ["Quinta-feira", valoresCertos4, "#09acd7"],
+        ["Sexta-feira", valoresCertos5, "#0cbeea"]
+    ]);
+
+    var view = new google.visualization.DataView(data);
+    view.setColumns([0, 1,
+        {
+            calc: "stringify",
+            sourceColumn: 1,
+            type: "string",
+            role: "annotation"
+        },
+        2]);
+
+    var options = {
+        title: "Média de agendamentos por dia na semana",
+        width: 600,
+        height: 400,
+        bar: { groupWidth: "90%" },
+        legend: { position: "none" },
+        backgroundColor: "#4AF0B6",
+        vAxis: {gridlines:{color: 'black'}},
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById("Grafico1"));
+    chart.draw(view, options);
+}
+
