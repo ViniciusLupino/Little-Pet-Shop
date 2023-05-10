@@ -21,10 +21,32 @@ footer {
     text-shadow: 2px 2px 4px black;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#Dois-primeiros {
+    justify-content: center;
+    display: flex;
+}
+
+#Dois-segundos {
+    justify-content: center;
+    display: flex;
+}
+
 #Grafico1 {
     margin: 20px auto;
+    width: auto;
 }
 
 #Grafico2 {
     margin: 20px auto;
+    width: auto;
+}
+
+#Grafico3 {
+    margin: 20px auto;
+    width: auto;
 }
