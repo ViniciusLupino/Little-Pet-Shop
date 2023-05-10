@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    
 
 
     <div id="container">
@@ -21,7 +20,8 @@
         <img src="Imagens/logonova.png">
 
 
-        
+        <p id="textoFaça">FAÇA LOGIN</p><br>
+
         <div id="erro">dsa</div>
 
         <div id="login">
@@ -30,7 +30,8 @@
                 <p class="tamanhoMinimo">Endereço de Email</p>
 
                 <form>
-                    <input type="email" class="tamanhoMaximoEmail" name="mail" placeholder="Exemplo@email.com" id="barraEmail">
+                    <input type="email" class="tamanhoMaximoEmail" name="mail" placeholder="Exemplo@email.com"
+                        id="barraEmail" onclick="sumirErro()">
                 </form>
             </div>
 
@@ -39,7 +40,8 @@
                 <p class="tamanhoMinimo"> Senha</p>
 
                 <form id="verSenhaDiv">
-                    <input type="password" class="tamanhoMaximo" name="password" placeholder="Senha" id="barraSenha">
+                    <input type="password" class="tamanhoMaximo" name="password" placeholder="Senha" id="barraSenha"
+                        onclick="sumirErro()">
                     <div id="icon" onclick="showHide()"></div>
                 </form>
 
@@ -50,6 +52,7 @@
 
         </div>
 
+        <p id="cadastre-se">Não tem uma Conta? <a href="Cadastro.html">CADASTRE-SE!</a> </p>
 
     </div>
 
@@ -57,4 +60,5 @@
 
 </body>
 <script src="js/script.js"></script>
+
 </html>
