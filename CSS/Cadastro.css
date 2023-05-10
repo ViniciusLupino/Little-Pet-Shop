@@ -98,6 +98,18 @@ footer {
 /* FIM ----------------------- HEADER NAV ----------------------- */
 
 
+
+#cadastro-pessoal {
+    background-color: #AAD0E8;
+    border-radius: 50px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    margin: 50px 50px;
+    padding: 0 100px;
+
+}
+
+
+
 #contaiinermaster {
     padding: 20px 100px 50px 100px;
     background: url(../Imagens/63286a32-a4e1-4c93-a588-313bdde19b55.jfif);
@@ -126,10 +138,16 @@ footer {
     padding: 40px;
 }
 
+.fotinha {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px 0 0;
+}
+
 .cadastro {
     display: flex;
     justify-content: center;
-    margin-left: 25px;
+
 }
 
 .cadastro p {
@@ -137,9 +155,73 @@ footer {
     font-size: 30px;
 }
 
-#-letra {
-    margin: 0;
-    font-size: 20px;
+.caixa {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 60px 50px 0;
+}
+
+.caixa0 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.seiscentos {
+    width: 600px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.quatrocentos-e-vinte {
+    width: 420px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.quinhentos-e-trinta {
+    width: 530px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.duzentos {
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.trezentos-e-dez {
+    width: 310px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+.caixa20 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px 50px 0;
+}
+
+.mil-e-setenta-e-sete-por-cento-e-cinquenta {
+    width: 1077px;
+    height: 150px;
+
+
+    /*    width: 60vw;
+    height: 30vh; */
+
+    font-size: 25px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+textarea {
+    resize: none;
 }
 
 .botao-formula {
@@ -161,10 +243,13 @@ textarea {
 
 #cadastre-outro {
     font-size: 25px;
+    margin-bottom: -25px;
+    margin-top: 75px;
     padding: 5px 0;
     border-radius: 50px;
     background-color: #609dc5;
     color: white;
+    margin: 0 180px;
 }
 
 #cadastre-outro a {
@@ -191,60 +276,6 @@ textarea {
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
     padding-top: 1px;
     padding-bottom: 35px;
-}
-
-.caixinha {
-    width: 90%;
-    height: 50px;
-    font-size: 25px;
-    box-shadow: 8px 8px rgba(0, 0, 0, 1);
-}
-
-.caixinha2 {
-    width: 90%;
-    height: 50px;
-    font-size: 20px;
-    box-shadow: 8px 8px rgba(0, 0, 0, 1);
-}
-
-.caixinhaid {
-    width: 90%;
-    height: 50px;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 8px 8px rgba(0, 0, 0, 1);
-    border: 2px solid black;
-    background-color: white;
-}
-
-.caixa {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0;
-    width: 100%;
-}
-
-.caixa2 {
-    display: flex;
-    flex-direction: column;
-    margin: 50px 0;
-    width: 50%;
-}
-
-.fotinha {
-    width: 30px;
-    height: 30px;
-    margin: 0 5px 0 0;
-}
-
-#erro1{
-    display: none;
-    background-color: red;
-    font-size: 25px;
-    color: white;
-    text-align: center;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------- */
@@ -325,6 +356,17 @@ textarea {
         flex-direction: column;
     }
 
+    .seiscentos,
+    .quatrocentos-e-vinte,
+    .quinhentos-e-trinta,
+    .duzentos,
+    .trezentos-e-dez,
+    .mil-e-setenta-e-sete-por-cento-e-cinquenta {
+        width: 250px;
+        height: 50px;
+        margin: 0;
+    }
+
     #container {
         margin: 10px;
         padding: 0;
@@ -353,6 +395,24 @@ textarea {
 
     #cadastre-outro {
         margin: 0;
+    }
+
+    .caixa,
+    .caixa0,
+    .caixa20 {
+        margin: 15px 0;
+    }
+
+    .caixa {
+        margin: 0 0 15px 13px;
+    }
+
+    .caixa0 {
+        margin: 0 0 15px 13px;
+    }
+
+    .caixa20 {
+        margin: 0 0 15px 13px;
     }
 
     .botao-formula {
@@ -439,6 +499,17 @@ textarea {
         flex-direction: column;
     }
 
+    .seiscentos,
+    .quatrocentos-e-vinte,
+    .quinhentos-e-trinta,
+    .duzentos,
+    .trezentos-e-dez,
+    .mil-e-setenta-e-sete-por-cento-e-cinquenta {
+        width: 400px;
+        height: 70px;
+        margin: 0;
+    }
+
     #container {
         margin: 20px;
         padding: 0;
@@ -467,6 +538,12 @@ textarea {
 
     #cadastre-outro {
         margin: 0;
+    }
+
+    .caixa,
+    .caixa0,
+    .caixa20 {
+        margin: 25px 0;
     }
 
     .botao-formula {
