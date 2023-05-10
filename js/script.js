@@ -359,3 +359,36 @@ function drawChart3() {
     chart.draw(view, options);
 };
 
+// --------------------------------------------------------------------------------
+
+// Gráfico 4
+
+google.charts.load('current', { 'packages': ['corechart'] });
+google.charts.setOnLoadCallback(drawChart4);
+
+function drawChart4() {
+    var data = google.visualization.arrayToDataTable([
+        ['Year', 'Vendas', 'Atendimentos'],
+        ['2017', 1372, 1334],
+        ['2018', 1724, 2310],
+        ['2019', 1260, 2070],
+        ['2020', 1927, 3012],
+        ['2021', 2041, 2417],
+        ['2022', 2743, 3120],
+    ]);
+
+    var options = {
+        title: 'Desempenho da empresa em relação à vendas e atendimentos',
+        curveType: 'function',
+        legend: { position: 'bottom' },
+        backgroundColor: "#4AF0B6",
+        vAxis: { gridlines: { color: 'black' } },
+        colors:['#004c90','#1a7ec8']
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('Grafico4'));
+
+    chart.draw(data, options);
+};
+
+

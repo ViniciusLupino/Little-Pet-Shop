@@ -23,17 +23,21 @@ footer {
 
 #container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 #Dois-primeiros {
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 
 #Dois-segundos {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
+    flex-direction: column;
+
 }
 
 #Grafico1 {
@@ -49,4 +53,10 @@ footer {
 #Grafico3 {
     margin: 20px auto;
     width: auto;
+}
+
+#Grafico4 {
+    margin:  auto;
+    width: auto;
+    width: 100%;
 }
