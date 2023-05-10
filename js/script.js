@@ -210,7 +210,7 @@ function drawChart() {
         height: 400,
         bar: { groupWidth: "90%" },
         legend: { position: "none" },
-        backgroundColor: "#4AF0B6",
+        backgroundColor: "#3ABD8F",
         vAxis: { gridlines: { color: 'black' } },
     };
     var chart = new google.visualization.ColumnChart(document.getElementById("Grafico1"));
@@ -281,7 +281,7 @@ function drawChart2() {
         height: 400,
         bar: { groupWidth: "90%" },
         legend: { position: "none" },
-        backgroundColor: "#4AF0B6",
+        backgroundColor: "#3ABD8F",
         hAxis: { gridlines: { color: 'black' } },
     };
     var chart = new google.visualization.BarChart(document.getElementById("Grafico2"));
@@ -352,7 +352,7 @@ function drawChart3() {
         height: 400,
         bar: { groupWidth: "90%" },
         legend: { position: "none" },
-        backgroundColor: "#4AF0B6",
+        backgroundColor: "#3ABD8F",
         hAxis: { gridlines: { color: 'black' } },
     };
     var chart = new google.visualization.BarChart(document.getElementById("Grafico3"));
@@ -381,9 +381,9 @@ function drawChart4() {
         title: 'Desempenho da empresa em relação à vendas e atendimentos',
         curveType: 'function',
         legend: { position: 'bottom' },
-        backgroundColor: "#4AF0B6",
+        backgroundColor: "#3ABD8F",
         vAxis: { gridlines: { color: 'black' } },
-        colors:['#004c90','#1a7ec8']
+        colors: ['#004c90', '#1a7ec8']
     };
 
     var chart = new google.visualization.LineChart(document.getElementById('Grafico4'));
@@ -391,4 +391,29 @@ function drawChart4() {
     chart.draw(data, options);
 };
 
+// --------------------------------------------------------------------------------
 
+// Gráfico 5
+
+google.charts.load("current", { packages: ["corechart"] });
+google.charts.setOnLoadCallback(drawChart5);
+function drawChart5() {
+    var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['⭐', 2],
+        ['⭐⭐', 2],
+        ['⭐⭐⭐', 2],
+        ['⭐⭐⭐⭐', 7],
+        ['⭐⭐⭐⭐⭐', 2],
+    ]);
+
+    var options = {
+        title: 'Avaliações',
+        pieHole: 0.4,
+        backgroundColor: '#3ABD8F',
+        colors: ['#F01A01', '#FF6C25', '#FFFF02', '#00FF00', '#39A300'],
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('Grafico5'));
+    chart.draw(data, options);
+}
