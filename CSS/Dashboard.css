@@ -1,3 +1,7 @@
+#Grafico1 {
+    margin: 20px auto;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -19,30 +23,4 @@ footer {
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 4px black;
-}
-
-#container {
-    display: flex;
-    justify-content: center;
-}
-
-#Grafico1 {
-    margin: 20px auto;
-    width: auto;
-}
-
-#Grafico2 {
-    margin: 20px auto;
-    width: auto;
-}
-
-#Grafico3 {
-    margin: 20px auto;
-    width: auto;
-}
-
-#Grafico4 {
-    margin: 20px auto;
-    width: 100%;
-    margin-bottom: 0;
 }
