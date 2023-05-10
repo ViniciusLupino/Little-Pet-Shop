@@ -1,3 +1,7 @@
+h1{
+    font-size: 65px;
+}
+
 .flex {
     display: flex;
 }
@@ -16,7 +20,6 @@ header {
 
     display: flex;
     justify-content: center;
-
     flex-direction: column;
     flex-wrap: wrap-reverse;
     background-color: #bbe5ff;
@@ -51,6 +54,10 @@ footer {
     align-items: center;
     text-decoration: underline;
 
+}
+
+.paragrafo-TeI{
+    font-size: 30px;
 }
 
 #imglogo {
@@ -130,9 +137,8 @@ footer {
 }
 
 #container {
-
     margin: 50px 100px;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
     border-radius: 25px;
 }
 
@@ -254,6 +260,45 @@ hr {
 #horario-texto {
     margin-top: 50px;
     box-shadow: 8px 8px rgba(0, 0, 0, 1);
+}
+
+#grafico{
+    background-color: #AAD0E8;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+
+    display: none;
+    justify-content: center;
+}
+
+th{
+    padding-left: 35px;
+    padding-right: 35px;
+
+    background-color: #00b384;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+tr{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#erro{
+    display: none;
+    background-color: rgb(255, 141, 141);
+    padding: 4px 50px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+    font-size: 24px;
+    text-align: center;
 }
 
 
