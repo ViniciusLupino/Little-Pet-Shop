@@ -39,6 +39,7 @@
                 <li><a href="Contato.html">CONTATOS</a></li>
                 <li><a href="Agendamento.html">AGENDAMENTO</a></li>
                 <li><a href="Cadastro.html">CADASTRO</a></li>
+                <li><a href="Dashboard.html">DASHBOARD</a></li>
                 <li><a href="Login2.html">LOGIN</a></li>
             </ul>
         </nav>
@@ -48,28 +49,82 @@
 
     <div id="container">
 
+        <div id="grafico">
+
+            <p id="realizadoComSucesso"> Agendamento Realizado Com Sucesso!</p>
+
+
+            <div id="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="nomeCliente">NOME</th>
+                            <th id="nomePet">PET</th>
+                            <th id="servico">SERVIÇO</th>
+                            <th id="transporte">TRANSPORTE</th>
+                            <th id="data">DATA</th>
+                            <th id="horario">HORARIO</th>
+                            <th id="desconto">DESCONTO</th>
+                            <th id="pagamento">PAGAMENTO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="barras"></tbody>
+                </table>
+            </div>
+        </div>
+
+
+       
+
+
         <div id="horarios-info">
 
             <h1>AGENDE SEU HORÁRIO</h1>
-            <form action="#">
+            <form id="formulario" action="#">
 
                 <div class="caixa-master">
                     <div class="caixa">
-                        <p><img class="fotinha" src="Imagens/briefcase.png">Tipo de Serviço</p>
-                        <select class="caixinha" required>
-                            <option>Banho R$25,00</option>
-                            <option>Tosa R$25,00</option>
-                            <option>Banho e Tosa R$45,00</option>
-                            <option>Vacinação R$20,00</option>
-                            <option>Consulta Veteninária R$50,00</option>
-                            <option>Pacote(todos os serviços) R$100,00</option>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/user.png">
+                            Seu nome
+                        </p>
+                        <input class="caixinha" class="nome" type="text" placeholder="Digite seu nome"
+                            id="nomeDoCliente">
+                    </div>
+
+                    <div class="caixa-direita">
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/dog.png">
+                            Nome do seu Pet
+                        </p>
+                        <input class="caixinha" class="nome" type="text" placeholder="Digite o nome do seu Pet"
+                            id="nomeDoPet">
+                    </div>
+                </div>
+
+                <div class="caixa-master">
+                    <div class="caixa">
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/briefcase.png">
+                            Tipo de Serviço
+                        </p>
+                        <select class="caixinha" required id="servico">
+                            <option>Banho - R$30,00</option>
+                            <option>Tosa - R$30,00</option>
+                            <option>Banho e Tosa - R$50,00</option>
+                            <option>Vacinação - R$20,00</option>
+                            <option>Consulta Veteninária - R$50,00</option>
+                            <option>Pacote(todos os serviços) - R$100,00</option>
                         </select>
                     </div>
 
                     <div class="caixa-direita">
-                        <p><img class="fotinha" src="Imagens/dog23.png">O animal que será levado</p>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/dog23.png">
+                            O animal que será levado
+                        </p>
                         <select class="caixinha" required>
-                            <option>(aqui vai aparecer os animais cadastrados)</option>
+                            <option>(Selecione o seu Pet)</option>
                         </select>
                     </div>
 
@@ -78,8 +133,11 @@
                 <div class="caixa-master">
 
                     <div class="caixa">
-                        <p><img class="fotinha" src="Imagens/truck.png">Transporte do Pet</p>
-                        <select class="caixinha2" required>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/truck.png">
+                            Transporte do Pet
+                        </p>
+                        <select class="caixinha2" required id="transporte">
                             <option>O cliente vem buscar</option>
                             <option>Nós iremos buscar</option>
                             <option>O pet vem sozinho</option>
@@ -87,13 +145,19 @@
                     </div>
 
                     <div class="caixa-direita">
-                        <p><img class="fotinha" src="Imagens/alternate-calendar.png">Data</p>
-                        <input type="date" class="caixinha2" required>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/alternate-calendar.png">
+                            Data
+                        </p>
+                        <input type="date" class="caixinha2" required id="data">
                     </div>
 
                     <div class="caixa-direita">
-                        <p><img class="fotinha" src="Imagens/clock.png">Horário</p>
-                        <input type="time" class="caixinha2" required>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/clock.png">
+                            Horário
+                        </p>
+                        <input type="time" class="caixinha2" required id="horario">
                     </div>
 
                 </div>
@@ -101,8 +165,11 @@
                 <div class="caixa-master">
 
                     <div class="caixa">
-                        <p><img class="fotinha" src="Imagens/credit-card.png">Forma de pagamento</p>
-                        <select class="caixinha" required>
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/credit-card.png">
+                            Forma de pagamento
+                        </p>
+                        <select class="caixinha" required id="pagamento">
                             <option>Dinheiro</option>
                             <option>Cheque</option>
                             <option>Boleto</option>
@@ -111,15 +178,25 @@
                         </select>
                     </div>
                     <div class="caixa-direita">
-                        <p><img class="fotinha" src="Imagens/barcode.png">Código para desconto</p>
-                        <input class="caixinha" type="text" placeholder="Insira seus Cupons aqui">
+                        <p class="paragrafo-TeI">
+                            <img class="fotinha" src="Imagens/barcode.png">
+                            Código para desconto
+                        </p>
+                        <input class="caixinha" type="text" placeholder="Insira seus Cupons aqui" id="desconto">
                     </div>
                 </div>
+        <div id="erro"></div>
+
                 <div class="caixa-master">
-                    <button class="botao-agenda" type="submit" formaction="#">AGENDAR</button>
+                    
+                    <button class="botao-agenda" id="btnResete" type="button" formaction="#"
+                        onclick="pegarDados()">AGENDAR</button>
                 </div>
             </form>
         </div>
+
+
+
 
 
         <div id="horarios">
@@ -128,11 +205,11 @@
 
             <div id="caixa-dentro">
                 <div style="text-align: left;">
-                    <p class="padEsquerda">SEGUNDA</p>
-                    <p class="padEsquerda">TERÇA</p>
-                    <p class="padEsquerda">QUARTA</p>
-                    <p class="padEsquerda">QUINTA</p>
-                    <p class="padEsquerda">SEXTA</p>
+                    <p class="padEsquerda">SEGUNDA-FEIRA</p>
+                    <p class="padEsquerda">TERÇA-FEIRA</p>
+                    <p class="padEsquerda">QUARTA-FEIRA</p>
+                    <p class="padEsquerda">QUINTA-FEIRA</p>
+                    <p class="padEsquerda">SEXTA-FEIRA</p>
                     <p class="padEsquerda">SÁBADO</p>
                     <p class="padEsquerda">DOMINGO</p>
                     <p class="padEsquerda">FERIADOS</p>
@@ -147,25 +224,25 @@
                     <p class="sumiço">________________________</p>
                     <p class="sumiço">________________________</p>
                     <p class="sumiço">________________________</p>
+                    <!-- <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
                     <p class="sumiço-reverço">-</p>
-                    <p class="sumiço-reverço">-</p>
-                    <p class="sumiço-reverço">-</p>
+                    <p class="sumiço-reverço">-</p> -->
 
                 </div>
                 <div class="sumiço2">&NonBreakingSpace;&NonBreakingSpace;</div>
                 <div>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
-                    <p class="padDireita">9:30-15:30</p>
+                    <p class="padDireita">8:00 - 18:00</p>
+                    <p class="padDireita">8:00 - 18:00</p>
+                    <p class="padDireita">8:00 - 18:00</p>
+                    <p class="padDireita">8:00 - 18:00</p>
+                    <p class="padDireita">8:00 - 18:00</p>
+                    <p class="padDireita">FECHADO</p>
+                    <p class="padDireita">FECHADO</p>
                     <p class="padDireita">FECHADO</p>
                 </div>
 
@@ -174,11 +251,12 @@
 
         </div>
     </div>
+
     <footer>
         <p>Desenvolvido por: PIMPINHA SOFTERS&reg;</p>
     </footer>
 
-
 </body>
+<script src="js/scriptsAgenda.js"></script>
 
 </html>

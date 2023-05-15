@@ -9,6 +9,14 @@ function pegarDados() {
     let desconto = formulario.desconto.value
     let pagamento = formulario.pagamento.value
 
+    let horarioArr = horario.split(":")
+    let hora = horarioArr[0];
+
+    let dataHoje = new Date()
+
+    let dataAgen = new Date(data)
+    dataAgen.setUTCHours(15, 0, 0, 0);
+
     let barras = document.getElementById('barras');
     barras.innerHTML = '';
 
@@ -16,21 +24,51 @@ function pegarDados() {
     erro.style.color = ''
     erro.style.display = '';
 
-    if (nomeCliente < 3 || nomeCliente > 100) {
+    if (nomeCliente.length < 3 || nomeCliente.length > 100) {
         erro.style.display = 'block';
         erro.innerHTML = ("Nome Inválido, Deve possuir mais de 3 caracteres e menos de 100 caracteres");
         return false;
     }
 
-    if (nomePet < 3 || nomePet > 100) {
+    if (nomePet.length < 3 || nomePet.length > 100) {
         erro.style.display = 'block';
         erro.innerHTML = ("Nome do Pet Inválido, Deve possuir mais de 3 caracteres e menos de 100 caracteres");
         return false;
     }
 
 
+    if (data.trim() == '') {
+        erro.style.display = 'block';
+        erro.innerHTML = ("Porfavor selecione uma Data");
+        return false;
+    }
 
+    if (dataAgen < dataHoje) {
+        erro.style.display = 'block';
+        erro.innerHTML = ("Não, não faça isso Barry!! Não volte no tempo Denovo! ");
+        return false;
+    }
 
+    if (dataAgen.getDay() == 0 || dataAgen.getDay() == 6) {
+
+        erro.style.display = 'block';
+        erro.innerHTML = ("Agendamentos só podem ser feitos de Segunda a Sexta-Feira");
+        return false;
+    }
+
+    if (hora < 8 || hora > 18) {
+        erro.style.display = 'block';
+        erro.innerHTML = ("Agendamentos só podem ser entre 8:00 e 18:00");
+        return false;
+    }
+
+    if (desconto.trim() == '' || desconto !== "LITTLE15") {
+        desconto = "NÃO APLICADO";
+    }
+
+    if (desconto == "LITTLE15") {
+        desconto = "5% DE CASHBACK"
+    }
 
 
     let baritas = '<td>' + nomeCliente + '</td>' + '<td>' + nomePet + '</td>' + '<td>' + servico + '</td>' + '<td>' + transporte + '</td>' + '<td>' + data + '</td>' + '<td>' + horario + '</td>' + '<td>' + desconto + '</td>' + '<td>' + pagamento + '</td>' + '</tr>';
@@ -40,15 +78,22 @@ function pegarDados() {
     grafico.style.display = 'flex';
     barras.innerHTML += baritas;
 
+    let divDestino = document.getElementById("grafico");
+    if (divDestino) {
+        divDestino.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    let reseteDeBotao = document.getElementById("btnResete");
+    let formulario1 = document.getElementById("formulario");
+
+    reseteDeBotao.addEventListener("click", () => {
+        formulario1.reset();
+    });
+
 }
 
 
-var meuBotao = document.getElementById("btnResete");
-var minhaDiv = document.getElementById("erro");
 
-meuBotao.addEventListener("click", () => {
-  minhaDiv.scrollIntoView({ behavior: "smooth" });
-});
 
 function sumirErro() {
     let tempoEspera = 2000;
@@ -56,49 +101,7 @@ function sumirErro() {
 }
 
 
-var reseteDeBotao = document.getElementById("btnResete");
-var formulario = document.getElementById("formulario");
-
-reseteDeBotao.addEventListener("click", () => {
-    formulario.reset();
-});
 
 
 
 
-// if (desconto.trim() == '') {
-
-//     let desconto = "NÃO APLICADO";
-//     baritas = '<td>' + nomeCliente + '</td>' + '<td>' + nomePet + '</td>' + '<td>' + servico + '</td>' +
-//         '<td>' + transporte + '</td>' +
-//         '<td>' + data + '</td>' +
-//         '<td>' + horario + '</td>' +
-//         '<td>' + desconto + '</td>' +
-//         '<td>' + pagamento + '</td>' + '</tr>';
-
-//     barras.innerHTML += baritas;
-    
-// } else {
-
-//     if (desconto == "LITTLE")
-
-
-
-
-
-
-
-
-
-
-
-
-//     baritas = '<td>' + nomeCliente + '</td>' + '<td>' + nomePet + '</td>' + '<td>' + servico + '</td>' +
-//         '<td>' + transporte + '</td>' +
-//         '<td>' + data + '</td>' +
-//         '<td>' + horario + '</td>' +
-//         '<td>' + desconto + '</td>' +
-//         '<td>' + pagamento + '</td>' + '</tr>';
-
-//     barras.innerHTML += baritas;
-// }
